@@ -58,7 +58,7 @@ html, body{
 #homepage-header {
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
+    text-align: left;
     background-color: white;
 }
 
@@ -68,14 +68,14 @@ html, body{
 #homepage-header #brand h1 {
     margin-top: 5px;
     color: #212933;
-    text-align: center;
-    font-weight: 700;
+    text-align: left;
+    font-weight: 300;
     font-size: 41px;
 }
 
 #homepage-header #brand h1 strong {
     color: #005A9C;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 #about {
