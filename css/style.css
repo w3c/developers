@@ -1,0 +1,418 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    height: 100%;
+    font-family: Open Sans, Sans Serif;
+    font-weight: 400;
+    background-color: #F7F7F7;
+}
+
+#homepage-nav {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    height: 61px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    text-align: right;
+    background-image: none;
+    background-color: #212933;
+}
+
+#homepage-nav #menu {
+    text-align: left;
+    padding-right: 0px;
+    height: 61px;
+}
+
+#homepage-nav ul {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#homepage-nav ul li {
+    color: #212933;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    padding-top: 21px;
+    display: inline-block;
+    list-style-type: none;
+    height: 61px;
+}
+
+#homepage-nav ul li:hover {
+    background-color: #384047;
+}
+
+#homepage-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#homepage-nav ul .active {
+    background-color: #384047;
+}
+
+#homepage-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+#homepage-header img {
+}
+
+#homepage-header #brand h1 {
+    margin-top: 5px;
+    color: #212933;
+    text-align: center;
+    font-weight: 700;
+    font-size: 41px;
+}
+
+#homepage-header #brand h1 strong {
+    color: #005A9C;
+    font-weight: 700;
+}
+
+#about {
+    padding-left: 15px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+#about h1 {
+    padding-left: 15px;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+#about h2 {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#about .illustration {
+    margin-top: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+#about p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#toolbox {
+    text-align: center;
+    background-color: #1abc9c;
+    padding-bottom: 60px;
+}
+
+#toolbox h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+#toolbox h2 {
+    color: white;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#toolbox img {
+    margin-bottom: 40px;
+}
+
+#toolbox a {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #FF5E5E;
+    border-radius: 5px;
+    padding: 15px;
+    border-bottom: 5px solid #e74c3c;
+}
+
+#toolbox a:hover {
+    background-color: #e74c3c;
+    border-bottom: 5px solid #FF5E5E;
+}
+
+#assistance {
+    text-align: center;
+    background-color: #FCFCFB;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
+#assistance h1 {
+    color: #F8B526;
+    color: #666;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+#assistance h2 {
+    color: #666;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#assistance p {
+    color: #333;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#assistance div {
+    text-align: center;
+}
+
+#assistance #assistance-button {
+    padding-top: 40px;
+}
+
+#assistance #assistance-button a {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #F8B526;
+    border-radius: 5px;
+    padding: 15px;
+    border-bottom: 5px solid #f39c12;
+}
+
+#assistance #assistance-button a:hover {
+    background-color: #f39c12;
+    border-bottom: 5px solid #f39c12;
+}
+
+#news {
+    text-align: center;
+    background-color: #30B4C5;
+    padding-bottom: 60px;
+    height: 300px;
+}
+
+#news h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+#news h2 {
+    color: white;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#news img {
+    margin-bottom: 40px;
+}
+
+#news a {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #FF5E5E;
+    border-radius: 5px;
+    padding: 15px;
+    border-bottom: 5px solid #e74c3c;
+}
+
+#news a:hover {
+    background-color: #e74c3c;
+    border-bottom: 5px solid #FF5E5E;
+}
+
+#banner {
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #212933;
+    --background-image:linear-gradient(#212933, #34495e);
+    --background-image: url(../img/team2.png);
+    --background-attachment:fixed;
+    --background-position:50% 0%;
+}
+
+#banner h1 {
+    font-weight: 400;
+    font-size: 45px;
+    color: #333;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#banner h2 {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#banner a {
+    text-decoration: none;
+}
+
+#banner a span {
+    color: white;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#banner .banner-category h2 {
+    margin-top: 0px;
+    font-weight: 300;
+    color: white;
+    padding-left: 0px;
+    font-size: 22px;
+}
+
+#banner .banner-category p {
+    color: #FCFCFB;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+#banner button {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-category {
+    height: 300px;
+    background-color: transparent;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#banner #getstarted {
+    height: 100%;
+    background-color: #1abc9c;
+    border-bottom: 5px solid #16a085;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#banner #getstarted:hover {
+    height: 100%;
+    background-color: #16a085;
+    border-bottom: 5px solid #16a085;
+    transition: 0.2s;
+}
+
+#banner #communitybox {
+    height: 100%;
+    background-color: #3498db;
+    border-bottom: 5px solid #2980b9;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#banner #communitybox:hover {
+    height: 100%;
+    background-color: #2980b9;
+    border-bottom: 5px solid #2980b9;
+    transition: 0.2s;
+}
+
+#banner #learn {
+    height: 100%;
+    background-color: #F8B526;
+    border-bottom: 5px solid #f39c12;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#banner #learn:hover {
+    height: 100%;
+    background-color: #f39c12;
+    border-bottom: 5px solid #f39c12;
+    transition: 0.2s;
+}
+
+#banner #donate {
+    height: 100%;
+    background-color: #FF5E5E;
+    border-bottom: 5px solid #e74c3c;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#banner #donate:hover {
+    height: 100%;
+    background-color: #e74c3c;
+    border-bottom: 5px solid #e74c3c;
+    transition: 0.2s;
+}
+
+#banner #contribution {
+    height: 100%;
+    background-color: #88609D;
+    border-bottom: 5px solid #694D9F;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#banner #contribution:hover {
+    height: 100%;
+    background-color: #694D9F;
+    border-bottom: 5px solid #694D9F;
+    transition: 0.2s;
+}
+
+#banner #blog {
+    height: 100%;
+    background-color: #30B4C5;
+    border-bottom: 5px solid #356A84;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#banner #blog:hover {
+    height: 100%;
+    background-color: #356A84;
+    border-bottom: 5px solid #356A84;
+    transition: 0.2s;
+}
+
+#banner #sponsors {
+    text-align: center;
+    margin-top: 61px;
+}
+
+#banner #sponsors img{
+    padding: 20px;
+}
+
+#announcements {
+    height: 300px;
+    background-color: #eee;
+}
+
+footer {
+    height: 200px;
+    background-color: #212933;
+    color: white;
+}
