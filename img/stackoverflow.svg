@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="64"
+   height="64"
+   id="svg3715">
+  <defs
+     id="defs3717" />
+  <g
+     id="layer1">
+    <path
+       d="m 9.3049611,36.847632 4.4013079,0.04316 -0.153442,19.598393 29.291259,0 0,-19.527506 4.637782,0 0,24.287331 -38.2006795,0 0.023777,-24.401371 z"
+       id="path2830"
+       style="fill:#919191;fill-opacity:1;stroke:none" />
+    <rect
+       width="22.944817"
+       height="4.881876"
+       x="16.481951"
+       y="48.434078"
+       id="rect3604"
+       style="fill:#919191;fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="20.749949"
+       y="37.830307"
+       transform="matrix(0.9953749,0.09606666,-0.09606666,0.9953749,0,0)"
+       id="rect3606"
+       style="fill:#a78b68;fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="26.472515"
+       y="23.401554"
+       transform="matrix(0.96240291,0.27162592,-0.27162592,0.96240291,0,0)"
+       id="rect3606-1"
+       style="fill:#c19653;fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="30.528769"
+       y="3.1535864"
+       transform="matrix(0.85597805,0.51701216,-0.51701216,0.85597805,0,0)"
+       id="rect3606-1-3"
+       style="fill:#d48c28;fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="27.191883"
+       y="-24.475019"
+       transform="matrix(0.58242689,0.81288309,-0.81288309,0.58242689,0,0)"
+       id="rect3606-1-3-7"
+       style="fill:#fe8908;fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="11.174569"
+       y="-50.183693"
+       transform="matrix(0.16480989,0.98632535,-0.98632535,0.16480989,0,0)"
+       id="rect3606-1-3-7-6"
+       style="fill:#ff7a15;fill-opacity:1;stroke:none" />
+  </g>
+</svg>
