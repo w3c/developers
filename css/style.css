@@ -18,6 +18,7 @@ html, body{
     text-align: right;
     background-image: none;
     background-color: #212933;
+    text-transform: uppercase;
 }
 
 #homepage-nav #menu {
