@@ -417,3 +417,41 @@ footer {
     background-color: #212933;
     color: white;
 }
+
+
+
+
+.panel {
+    height: 35px;
+    margin-bottom: 0px;
+    border-radius: 3px 0px 0px 0px;
+    background-color: #384047;
+}
+
+.screenshot {
+    padding: 0px;
+    border-radius: 3px 0px 0px 0px;
+}
+
+.screenshot img {
+    border: 1px solid #eee;
+}
+
+.screenshot ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.screenshot ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.screenshot .bullet {
+    height: 10px;
+    width: 10px;
+    margin-top: 12px;
+    margin-right: 3px;
+    border-radius: 100%;
+    background-color: #666;
+}
