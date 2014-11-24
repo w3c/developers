@@ -5,140 +5,203 @@ html, body{
     height: 100%;
     font-family: Open Sans, Sans Serif;
     font-weight: 400;
-    background-color: #F7F7F7;
+    background-color: #FCFCFB;
 }
 
-.container {
-	padding: 0px;
-}
-
-.tool-introduction {
-	padding: 0;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-color: white;
-}
-
-.tool-introduction h1 {
-	margin-bottom: 50px;
-	text-align: center;
-	font-size: 43px;
-	font-weight: 300;
-	color: #384047;
-}
-
-.tool-introduction h2 {
-	margin-top: 40px;
-	text-align: left;
-	font-size: 33px;
-	font-weight: 300;
-	color: #384047;
-}
-
-.tool-introduction p {
-	margin-top: 20px;
-	text-align: left;
-	font-size: 16px;
-	font-weight: 400;
-	color: #666;
-}
-
-.tool-introduction ul {
+.border {
+	border-top: 1px solid #eee;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
-.tool-introduction ul li {
-	list-style-type: none;
-	text-align: left;
-	font-size: 28px;
+#documentation-header {
+	height: 5px;
+	border:0px;
+	background-color: #212933;
+}
+
+#documentation-header h1 {
+	margin-top: 5px;
+	border:0px;
+	font-size: 25px;
 	font-weight: 400;
-	margin-top: 10px;
-	color: #666;
+	font-family: Open Sans;
+	color: white;
 }
 
-.tool-introduction span {
-	padding-right: 10px;
-	color: #16A085;
+#documentation-nav {
+	border: 0px;
+	border-radius: 0px;
+    box-shadow: none;
+	background-image: none;
+	background-color: #212933;
+	background-color: #FCFCFB;
+	text-align: center;
 }
 
-.classic-use {
-	padding: 0;
-	padding-top: 150px;
-	padding-bottom: 150px;
-	background-color: #999;
-}
-
-.classic-use h2 {
+#documentation-nav h1 {
 	margin-top: 80px;
-	margin-bottom: 80px;
+	font-size: 50px;
 	text-align: center;
-	font-size: 33px;
-	font-weight: 300;
-	color: #384047;
-}
-
-.classic-use .screenshot {
-	background-color: #333;
-	border-radius: 3px 3px 0px 0px;
-}
-
-.classic-use p {
-	margin-top: 50px;
-	text-align: center;
-	font-size: 18px;
-	font-weight: 400;
 	color: #666;
-	margin-bottom: 30px;
+	font-weight: 700;
+	font-family: Bitter;
 }
 
-.classic-use .legend {
-	height: 535px;
+#documentation-nav span {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 50px;
+	color: #3C3C3C;
 }
 
-.classc-use .illustration {
-	margin-top: 300px;
-}
-
-.screenshot .panel {
-	height: 35px;
-	margin-bottom: 0px;
-	border-radius: 3px 0px 0px 0px;
-	background-color: #384047;
-}
-
-.screenshot {
-	padding: 0px;
-	border-radius: 3px 0px 0px 0px;
-    overflow: hidden;
-}
-
-.screenshot img {
-	border: 1px solid #eee;
-}
-
-.screenshot ul li {
-	list-style-type: none;
-	display: inline-block;
-}
-
-.screenshot ul {
-	padding-left: 0px;
+#documentation-nav h2 {
 	margin-top: 0px;
+	font-size: 30px;
+	text-align: center;
+	color: #999;
+	font-weight: 300;
+	font-family: Open Sans;
+
 }
 
-.screenshot .bullet {
-	height: 10px;
-	width: 10px;
-	margin-top: 12px;
-	margin-right: 3px;
-	border-radius: 100%;
-	background-color: #666;
+#introduction #tool-description {
+	font-size: 20px;
+	font-weight: 300;
+	color: #333;
+	font-family: Open Sans;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-.panel-full {
-	height: 35px;
-	margin-bottom: 0px;
-	border-radius: 3px 3px 0px 0px;
-	background-color: #384047;
+#introduction button {
+	color: #333;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: Open Sans;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-image: none;
+	background-color: white;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+
+#introduction .quick-use {
+	background-color: #2ecc71;
+	border: 0px;
+	border-bottom: 3px solid #27ae60;
+	color: white;
+	font-weight: 700px;
+}
+
+#introduction .quick-use:hover {
+	background-color: #27ae60;
+}
+
+#introduction button:hover {
+	background-color: #eee;
+	transition: 0.4s;
+}
+
+#introduction .screenshot {
+	margin-top: 50px;
+	box-shadow: 0 1px 2px #777;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#introduction a {
+	text-align: center;
+}
+
+#features h2 {
+	color: #666;
+	font-size: 22px;
+	font-weight: 700;
+	font-family: Bitter;
+}
+
+#features ul li {
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#categories #left-menu {
+	height: 600px;
+	background-color: #eee;
+}
+
+#categories .doc-categorie {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#categories .doc-categorie span {
+	color: #005A9C;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
+	font-size: 54px;
+}
+
+#categories .doc-categorie h3 {
+	font-weight: 700;
+	font-size: 30px;
+	font-family: Bitter;
+	color: #666;
+}
+
+#more-info h2 {
+	color: #666;
+	font-size: 22px;
+	font-weight: 700;
+	font-family: Bitter;
+}
+
+#more-info p {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	color: #333;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: Open Sans;
+}
+
+#more-info span {
+	font-size: 45px;
+	color: #FF5E5E;
+}
+
+#more-info button {
+	color: #333;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: Open Sans;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-image: none;
+	background-color: white;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+
+#more-info button:hover {
+	background-color: #eee;
+	transition: 0.4s;
+}
+
+#more-info button span {
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+#more-info #github-link {
+}
+
+footer {
+	margin-top: 50px;
+	height: 60px;
+	margin-bottom: 100px;
+	background-color: #212933;
 }

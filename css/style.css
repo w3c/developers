@@ -60,7 +60,7 @@ html, body{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
-    background-color: white;
+    background-color: #212933;
 }
 
 #homepage-header img {
@@ -68,10 +68,11 @@ html, body{
 
 #homepage-header #brand h1 {
     margin-top: 5px;
-    color: #212933;
+    color: white;
     text-align: left;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 41px;
+    font-family: Bitter;
 }
 
 #homepage-header #brand h1 strong {
