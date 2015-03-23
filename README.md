@@ -26,7 +26,7 @@ The home page will provide a quick view of our most popular tools and helpful re
 
 ### Logo
 
-<img src="resources/logo/developertools-logo-blue.png" height="100px" alt="W3C developers tools blue logo" />
-<img src="resources/logo/developertools-logo-white.png" height="100px" alt="W3C developers tools white logo" />
+<img src="resources/logos/developertools-logo-blue.png" height="100px" alt="W3C developers tools blue logo" />
+<img src="resources/logos/developertools-logo-white.png" height="100px" alt="W3C developers tools white logo" />
 
 
