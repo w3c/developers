@@ -10,80 +10,200 @@ html, body{
 #navbar {
     height: 50px;
     background-color: white;
+    display: none;
 }
 
 #hero {
-    height: 300px;
+    padding-bottom: 70px;
     background-color: #5682A3;
 }
 
+#hero #title {
+    margin-top: 60px;
+}
+
 #hero #shortcuts {
-    height: 200px;
 }
 
 #hero #search-tool {
-    height: 100;
+    margin-top: 50px;
 }
 
 #hero #search-tool input {
-    height: 40px;
-    width: 50%;
+    height: 50px;
     padding: 10px;
-    border-radius: 2px;
-    color: #666;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 0px;
+    font-size: 18px;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 #hero #search-tool button {
-    height: 40px;
-    width: 80px;
-    border-radius: 2px;
+    height: 50px;
+    border-radius: 0px;
     border: 0;
     color: white;
-    background-color: #22A7F0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #b3cde0;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-#side-navbar {
-    margin-top: 20px;
-    height: 1000px;
-    background-color: #ECF0F1;
+#find-us {
+    text-align: center;
+    background-color: #E7EBF0;
+    padding-bottom: 20px;
 }
 
-#side-navbar h2 {
+#find-us h1 {
+    text-align: center;
     font-size: 16px;
-    font-weight: 300;
-    color: #22A7F0;
+    font-family: Open Sans;
+    font-weight: 700;
+    color: #84A2BC;
+}
+
+#ilovevalidators {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #E7EBF0;
+}
+
+#ilovevalidators h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #84A2BC;
+    padding-bottom: 20px;
+}
+
+#ilovevalidators p {
+    text-align: center;
+    font-weight: 400;
+    color: #84A2BC;
+}
+
+#ilovevalidators #donate {
+    padding: 18px;
+    background-color: #F62459;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#ilovevalidators #donate:hover {
+    transition: 0.3s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#ilovevalidators img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ilovevalidators #learn-more {
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 #popular-tools {
+    margin-top: 20px;
     text-align: center;
 }
 
 #popular-tools h1 {
-    text-align: left;
-    font-size: 20px;
-    font-weight: 300;
-    font-family: Bitter;
-    color: #22A7F0;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    border-bottom: 3px solid #eee;
+    text-align: center;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #84A2BC;
+    padding-bottom: 40px;
 }
 
-.popular-tool-box h2 {
+.starred-tool {
+    margin-top: 30px;
+}
+
+.starred-tool h2 {
     font-size: 16px;
     font-weight: 400;
 }
 
-.popular-tool-box p {
+.starred-tool p {
     font-size: 14px;
     font-weight: 300;
 }
 
-#resources {
+#tools {
+    margin-top: 40px;
+}
+
+.tool a {
+    color: #84A2BC;
+}
+
+.tool h2 {
+    text-align: left;
+    font-size: 14px;
+}
+
+.tool p {
+    text-align: left;
+    font-size: 12px;
+}
+
+#community {
     height: 400px;
     margin-top: 50px;
     background-color: #ECF0F1;
+    padding-top: 20px;
 }
 
+#community h1{
+    text-align: left;
+    font-size: 25px;
+    font-family: Bitter;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ECF0F1;
+}
 
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #84A2BC;
+    padding-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer li {
+    padding-top: 10px;
+}
+
+footer a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #84A2BC;
+}
+
+footer #copyright {
+    margin-top: 100px;
+    text-align: center;
+}

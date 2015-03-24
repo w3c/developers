@@ -1,0 +1,1 @@
+document.getElementById('navbar').style.display = none;
