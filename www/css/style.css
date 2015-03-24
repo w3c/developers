@@ -4,7 +4,7 @@ html, body{
     outline: 0px;
     height: 100%;
     font-family: Open Sans, Sans Serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #navbar {
@@ -16,6 +16,15 @@ html, body{
 #hero {
     padding-bottom: 70px;
     background-color: #5682A3;
+}
+
+#navbar #social-links {
+    text-align: right;
+}
+
+#navbar #social-links img {
+    margin: 5px;
+    margin-top: 15px;
 }
 
 #hero #title {
@@ -78,7 +87,7 @@ html, body{
     font-size: 25px;
     font-family: Open Sans;
     font-weight: 400;
-    color: #84A2BC;
+    color: #5682A3;
     padding-bottom: 20px;
 }
 
@@ -123,8 +132,18 @@ html, body{
     font-size: 25px;
     font-family: Open Sans;
     font-weight: 400;
-    color: #84A2BC;
-    padding-bottom: 40px;
+    color: #5682A3;
+    padding-bottom: 20px;
+}
+
+#popular-tools a {
+    color: #5682A3;
+}
+
+#popular-tools p {
+    text-align: center;
+    font-weight: 400;
+    color: #666;
 }
 
 .starred-tool {
@@ -156,28 +175,61 @@ html, body{
 
 .tool p {
     text-align: left;
-    font-size: 12px;
+    font-weight: 400;
+    color: #666;
 }
 
 #community {
-    height: 400px;
     margin-top: 50px;
-    background-color: #ECF0F1;
+    background-color: white;
     padding-top: 20px;
+    text-align: center;
 }
 
 #community h1{
-    text-align: left;
+    text-align: center;
     font-size: 25px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #5682A3;
+    padding-bottom: 40px;
+}
+
+#community h2{
+    text-align: center;
+    font-size: 20px;
     font-family: Bitter;
     font-weight: 400;
+    color: #5682A3;
+    margin-top: 15px;
+}
+
+#community span {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #5682A3;
+    text-align: center;
+}
+
+#community p {
+    text-align: left;
+    font-weight: 400;
+    color: #666;
+}
+
+.community-box {
+    text-align: center;
+}
+
+#community #btn {
+    padding: 5px;
+    background-color: #84A2BC;
     color: white;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #ECF0F1;
+    border-radius: 2px;
 }
 
 footer {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
