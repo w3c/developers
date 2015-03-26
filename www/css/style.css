@@ -16,8 +16,14 @@ html, body{
 }
 
 #hero {
-    padding-bottom: 70px;
+    text-align: center;
+    padding-bottom: 100px;
     background-color: #5682A3;
+}
+
+#hero h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #navbar #social-links {
@@ -30,7 +36,7 @@ html, body{
 }
 
 #hero #title {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 #hero #shortcuts {
