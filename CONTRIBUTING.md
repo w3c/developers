@@ -7,10 +7,6 @@
 <img src="resources/logos/developertools-logo-blue.png" height="100px" alt="W3C developers tools blue logo" />
 <img src="resources/logos/developertools-logo-white.png" height="100px" alt="W3C developers tools white logo" />
 
-###### W3C logo:
-
-<img src="resources/logos/w3c_logo.svg" height="60px" alt="W3C logo" />
-
 ###### Color Scheme:
 
 	#5682a3
@@ -23,4 +19,5 @@
 ###### Fonts:
 
 [Open Sans](http://www.google.com/fonts/specimen/Open+Sans)
+
 [Bitter](http://www.google.com/fonts/specimen/Bitter)
