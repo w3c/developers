@@ -8,9 +8,11 @@ html, body{
 }
 
 #navbar {
+    transition: 0.3s;
     height: 50px;
     background-color: white;
     display: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #hero {
@@ -151,8 +153,9 @@ html, body{
 }
 
 .starred-tool h2 {
+    color: #84A2BC;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .starred-tool p {
