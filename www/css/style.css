@@ -159,9 +159,8 @@ html, body{
 }
 
 .starred-tool h2 {
-    color: #84A2BC;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .starred-tool p {
@@ -174,7 +173,6 @@ html, body{
 }
 
 .tool a {
-    color: #84A2BC;
 }
 
 .tool h2 {
