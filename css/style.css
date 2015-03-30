@@ -127,13 +127,7 @@ html, body{
     margin-top: 20px;
 }
 
-#popular-tools {
-    margin-top: 100px;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-#popular-tools h1 {
+#tools h1 {
     text-align: center;
     font-size: 25px;
     font-weight: 400;
@@ -143,19 +137,10 @@ html, body{
     margin-bottom: 50px;
 }
 
-#popular-tools h2 {
-    font-size: 20px;
-}
-
-#popular-tools p {
-    text-align: center;
-    font-weight: 400;
-    color: #666;
-    font-size: 16px
-}
-
 #tools {
     padding-bottom: 100px;
+    margin-top: 100px;
+    padding-bottom: 50px;
 }
 
 .tool h2 {
