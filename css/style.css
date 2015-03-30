@@ -99,6 +99,7 @@ html, body{
     text-align: center;
     font-weight: 400;
     color: #84A2BC;
+    font-size: 16px;
 }
 
 #ilovevalidators #donate {
@@ -122,13 +123,14 @@ html, body{
 }
 
 #ilovevalidators #learn-more {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 20px;
 }
 
 #popular-tools {
     margin-top: 100px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #popular-tools h1 {
@@ -141,48 +143,31 @@ html, body{
     margin-bottom: 50px;
 }
 
-#popular-tools a {
+#popular-tools h2 {
+    font-size: 20px;
 }
 
 #popular-tools p {
     text-align: center;
     font-weight: 400;
     color: #666;
-}
-
-.starred-tool {
-}
-
-.starred-tool h2 {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.starred-tool p {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px
 }
 
 #tools {
     padding-bottom: 100px;
 }
 
-.tool {
-
-}
-
-.tool a {
-}
-
 .tool h2 {
     text-align: left;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .tool p {
     text-align: left;
     font-weight: 400;
     color: #666;
+    font-size: 16px;
 }
 
 #community {
@@ -221,6 +206,7 @@ html, body{
     text-align: left;
     font-weight: 400;
     color: #666;
+    font-size: 16px;
 }
 
 .community-box {
