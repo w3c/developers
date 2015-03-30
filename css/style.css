@@ -13,17 +13,6 @@ html, body{
     background-color: #5682A3;
 }
 
-#hero {
-    text-align: center;
-    padding-bottom: 100px;
-    background-color: #5682A3;
-}
-
-#hero h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 #navbar #social-links {
     text-align: right;
 }
@@ -31,100 +20,6 @@ html, body{
 #navbar #social-links img {
     margin: 5px;
     margin-top: 15px;
-}
-
-#hero #title {
-    margin-top: 100px;
-}
-
-#hero #shortcuts {
-}
-
-#hero #search-tool {
-    margin-top: 50px;
-}
-
-#hero #search-tool input {
-    height: 50px;
-    padding: 10px;
-    color: white;
-    border: 0px;
-    font-size: 18px;
-    background-color: transparent;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-#hero #search-tool button {
-    height: 50px;
-    border-radius: 0px;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    background-color: #b3cde0;
-    background-color: transparent;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-#find-us {
-    text-align: center;
-    background-color: #E7EBF0;
-    padding-bottom: 20px;
-}
-
-#find-us h1 {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    color: #84A2BC;
-}
-
-#ilovevalidators {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    background-color: #E7EBF0;
-}
-
-#ilovevalidators h1 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 400;
-    color: #5682A3;
-    padding-bottom: 20px;
-}
-
-#ilovevalidators p {
-    text-align: center;
-    font-weight: 400;
-    color: #84A2BC;
-    font-size: 16px;
-}
-
-#ilovevalidators #donate {
-    padding: 18px;
-    background-color: #F62459;
-    border-radius: 2px;
-    color: white;
-    font-weight: 400;
-    text-decoration: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-#ilovevalidators #donate:hover {
-    transition: 0.3s;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-#ilovevalidators img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#ilovevalidators #learn-more {
-    font-size: 16px;
-    margin-top: 20px;
 }
 
 #tools h1 {
@@ -143,9 +38,30 @@ html, body{
     padding-bottom: 50px;
 }
 
-.tool h2 {
-    text-align: left;
+#tools #index {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#tools #index a {
+    padding: 10px;
     font-size: 20px;
+    color: #eee;
+}
+
+#tools #index a.active {
+    color: #5682A3;
+}
+
+#tools h3 {
+    padding: 10px;
+    font-size: 20px;
+    color: #5682A3;
+}
+
+.tool a {
+    text-align: left;
+    font-size: 16px;
 }
 
 .tool p {
@@ -203,6 +119,53 @@ html, body{
     background-color: #84A2BC;
     color: white;
     border-radius: 2px;
+}
+
+#ilovevalidators {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #E7EBF0;
+}
+
+#ilovevalidators h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: #5682A3;
+    padding-bottom: 20px;
+}
+
+#ilovevalidators p {
+    text-align: center;
+    font-weight: 400;
+    color: #666;
+    font-size: 16px;
+}
+
+#ilovevalidators #donate {
+    padding: 18px;
+    background-color: #F62459;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#ilovevalidators #donate:hover {
+    transition: 0.3s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#ilovevalidators img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ilovevalidators #learn-more {
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 footer {
