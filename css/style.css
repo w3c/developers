@@ -78,7 +78,6 @@ html, body{
 #find-us h1 {
     text-align: center;
     font-size: 16px;
-    font-family: Open Sans;
     font-weight: 700;
     color: #84A2BC;
 }
@@ -93,7 +92,6 @@ html, body{
 #ilovevalidators h1 {
     text-align: center;
     font-size: 25px;
-    font-family: Open Sans;
     font-weight: 400;
     color: #5682A3;
     padding-bottom: 20px;
@@ -138,7 +136,6 @@ html, body{
 #popular-tools h1 {
     text-align: center;
     font-size: 25px;
-    font-family: Open Sans;
     font-weight: 400;
     color: #5682A3;
     padding-bottom: 20px;
@@ -199,7 +196,6 @@ html, body{
 #community h1{
     text-align: center;
     font-size: 25px;
-    font-family: Open Sans;
     font-weight: 400;
     color: #5682A3;
     padding-bottom: 40px;
