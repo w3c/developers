@@ -22,6 +22,14 @@ html, body{
     margin-top: 15px;
 }
 
+header {
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    background-color: #5682A3;
+}
+
 #tools h1 {
     text-align: center;
     font-size: 25px;
