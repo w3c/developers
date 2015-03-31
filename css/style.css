@@ -5,6 +5,7 @@ html, body{
     height: 100%;
     font-family: Open Sans, Sans Serif;
     font-weight: 400;
+    font-size: 16px;
 }
 
 #navbar {
@@ -20,6 +21,14 @@ html, body{
 #navbar #social-links img {
     margin: 5px;
     margin-top: 15px;
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    background-color: #5682A3;
 }
 
 #tools h1 {
@@ -61,14 +70,12 @@ html, body{
 
 .tool a {
     text-align: left;
-    font-size: 16px;
 }
 
 .tool p {
     text-align: left;
     font-weight: 400;
     color: #666;
-    font-size: 16px;
 }
 
 #community {
@@ -107,7 +114,6 @@ html, body{
     text-align: left;
     font-weight: 400;
     color: #666;
-    font-size: 16px;
 }
 
 .community-box {
@@ -140,7 +146,6 @@ html, body{
     text-align: center;
     font-weight: 400;
     color: #666;
-    font-size: 16px;
 }
 
 #ilovevalidators #donate {
@@ -164,7 +169,6 @@ html, body{
 }
 
 #ilovevalidators #learn-more {
-    font-size: 16px;
     margin-top: 20px;
 }
 
@@ -190,7 +194,6 @@ footer li {
 }
 
 footer a {
-    font-size: 16px;
     font-weight: 400;
     color: #84A2BC;
 }
