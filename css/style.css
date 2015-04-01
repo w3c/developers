@@ -24,11 +24,11 @@ html, body{
 }
 
 header {
-    margin-top: 50px;
+    margin-top: 75px;
     text-align: left;
     padding: 25px;
-    color: white;
-    background-color: #5682A3;
+    color: #333;
+    background-color: white;
 }
 
 header p {
@@ -38,7 +38,7 @@ header p {
 
 #tools h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     color: #5682A3;
     padding-bottom: 20px;
@@ -47,8 +47,7 @@ header p {
 }
 
 #tools {
-    padding-bottom: 100px;
-    margin-top: 100px;
+    padding-top: 0px;
     padding-bottom: 50px;
 }
 
@@ -73,14 +72,26 @@ header p {
     color: #5682A3;
 }
 
+.tool {
+    margin-top: 20px;
+}
 .tool a {
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
     text-align: left;
+    text-decoration: none;
+}
+
+.tool a:hover {
+    color: #5682A3;
 }
 
 .tool p {
     text-align: left;
     font-weight: 400;
     color: #666;
+    margin-top: 10px;
 }
 
 #community {
@@ -92,7 +103,7 @@ header p {
 
 #community h1{
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     color: #5682A3;
     padding-bottom: 20px;
@@ -141,7 +152,7 @@ header p {
 
 #ilovevalidators h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     color: #5682A3;
     padding-bottom: 20px;
