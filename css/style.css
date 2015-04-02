@@ -8,6 +8,10 @@ html, body{
     font-size: 16px;
 }
 
+a {
+    color: #397bb3;
+}
+
 #navbar {
     transition: 0.3s;
     height: 50px;
@@ -115,7 +119,7 @@ header p {
     text-align: center;
     font-size: 20px;
     font-weight: 400;
-    color: #5682A3;
+    color: #517b9a;
     margin-top: 15px;
 }
 
@@ -138,7 +142,7 @@ header p {
 
 #community #btn {
     padding: 5px;
-    background-color: #84A2BC;
+    background-color: #62798d;
     color: white;
     border-radius: 2px;
 }
@@ -166,7 +170,7 @@ header p {
 
 #ilovevalidators #donate {
     padding: 18px;
-    background-color: #F62459;
+    background-color: #e42152;
     border-radius: 2px;
     color: white;
     font-weight: 400;
@@ -188,6 +192,10 @@ header p {
     margin-top: 20px;
 }
 
+#learn-more a {
+    color: #336ea1;
+}
+
 footer {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -196,7 +204,7 @@ footer {
 footer h2 {
     font-size: 16px;
     font-weight: 700;
-    color: #84A2BC;
+    color: #62798d;
     padding-bottom: 10px;
 }
 
@@ -211,7 +219,7 @@ footer li {
 
 footer a {
     font-weight: 400;
-    color: #84A2BC;
+    color: #62798d;
 }
 
 footer #copyright {
@@ -224,8 +232,8 @@ aside a {
     right: 10px;
     bottom: 10px;
     background-color: white;
-    color: #5682A3;
-    border: 1px solid #5682A3;
+    color: #517691;
+    border: 1px solid #517691;
     text-align: center;
     padding: 10px;
     border-radius: 2px;
@@ -235,7 +243,7 @@ aside a {
 
 aside a:hover {
     text-decoration: none;
-    background-color: #5682A3;
+    background-color: #517691;
     color: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
