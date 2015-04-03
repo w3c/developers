@@ -1,183 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>W3C Developer Tools</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="octicons/octicons.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+    <!--
+    top navbar fixed
+    -->
     <nav id="navbar" class="navbar-fixed-top">
-      <div class="container">
-        <div id="brand" class="col-md-2"><a href="#"><img src="img/developertools-logo-white.png" height=49></a></div>
-        <div id="social-links" class="col-md-10">
-          <a href="https://github.com/w3c/"><img src="img/github.png" height="20px"></a>
-          <a href="https://twitter.com/W3C_DevTools"><img src="img/twitter.png" height="20px"></a>
+        <div class="container">
+            <div id="brand" class="col-md-2">
+                <a href="#"><img src="img/developers-white-logo.png" height="40"></a>
+            </div>
+            <div id="social-links" class="col-md-10">
+                <a href="https://github.com/w3c/">
+                    <img src="img/github.png" height="20px">
+                </a>
+                <a href="https://twitter.com/W3C_DevTools">
+                    <img src="img/twitter.png" height="20px">
+                </a>
+            </div>
         </div>
-      </div>
     </nav>
 
     <header class="col-md-12">
-      <div class="container">
-        <p>
-          Indispensable for the professional Webmaster, Web Designer or Web Developer, the developer tools platform groups all free and Open Source tools made with love by the W3C community.
-        </p>
-      </div>
+        <div class="container">
+            <div class="col-md-6">
+                <h1>Lead your code to his full potential.</h1>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
     </header>
 
-    <div class="container">
-      <section id="tools" class="col-md-12">
-        <h1>Specific tools for specific needs</h1>
-        <div class="row">
-          <div class="tool col-md-4">
-            <a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
-            <p>The W3C CSS Validation Service is a free software created by the W3C to help Web designers and Web developers check Cascading Style Sheets (CSS). </p>
-          </div>
-          <div class="tool col-md-4">
-            <a href="http://validator.w3.org/i18n-checker/">Internationalization Checker</a>
-            <p>This checker performs various tests on a Web Page to determine its level of internationalisation-friendliness.</p>
-          </div>
-          <div class="tool col-md-4">
-            <a href="http://validator.w3.org/checklink">Link Checker</a>
-            <p>The link checker reads an HTML or XHTML document or a CSS style sheet and checks that all the links are dereferenceable, including the fragments. It warns about HTTP redirects, including directory redirects.</p>
-          </div>
+    <section id="tools" class="col-md-12">
+        <div class="container">
+            <div class="row">
+                <div class="tool col-md-4">
+                    <a href="https://jigsaw.w3.org/css-validator/">
+                        CSS Validator
+                    </a>
+                    <p>
+                        The W3C CSS Validation Service is a free software created by the W3C to help Web designers and Web developers check Cascading Style Sheets (CSS). 
+                    </p>
+                </div>
+                <div class="tool col-md-4">
+                    <a href="http://validator.w3.org/i18n-checker/">
+                        Internationalization Checker
+                    </a>
+                    <p>
+                        This checker performs various tests on a Web Page to determine its level of internationalisation-friendliness.
+                    </p>
+                </div>
+                <div class="tool col-md-4">
+                    <a href="http://validator.w3.org/checklink">
+                        Link Checker
+                    </a>
+                    <p>
+                        The link checker reads an HTML or XHTML document or a CSS style sheet and checks that all the links are dereferenceable, including the fragments. It warns about HTTP redirects, including directory redirects.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="tool col-md-4">
+                    <a href="http://validator.w3.org/mobile-alpha">Mobile Checker</a>
+                    <p>
+                        The Mobile Checker is a tool for Web developers who want to make their Web page or Web app work better on mobile devices.
+                    </p>
+                </div>
+                <div class="tool col-md-4">
+                    <a href="http://validator.w3.org/">
+                        Markup Validator
+                    </a>
+                    <p>
+                        The Markup Validator is a free service by W3C that helps check the validity of Web documents powered by HTML or XHTML.
+                    </p>
+                </div>
+                <div class="tool col-md-4">
+                    <a href="http://validator.w3.org/mobile/">
+                        MobileOK Checker
+                    </a>
+                    <p>
+                        The W3C mobileOK Checker is a free service by W3C that helps check the level of mobile-friendliness of Web documents, and in particular assert whether a Web document is mobileOK.                         
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="tool col-md-4">
+                    <a href="http://validator.w3.org/feed/">
+                        RSS feed Validator
+                    </a>
+                    <p>
+                        This is a validator for syndicated feeds. It works with RSS 0.90, 0.91, 0.92, 0.93, 0.94, 1.0, and 2.0. It also validates Atom feeds.
+                    </p>
+                </div>
+                <div class="tool col-md-4">
+                    <a href="http://www.w3.org/RDF/Validator/">
+                        RDF Validator
+                    </a>
+                    <p>
+                        Checks and visualizes RDF documents.
+                    </p>
+                </div>
+                <div class="tool col-md-4">
+                    <a href="http://validator.w3.org/unicorn/">Unicorn</a>
+                    <p>
+                        Unicorn is W3C's unified validator, which helps people improve the quality of their Web pages by performing a variety of checks. Unicorn gathers the results of the popular HTML and CSS validators, as well as other useful services.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="tool col-md-4">
+                    <a href="https://validator.nu/">
+                        Validator.nu
+                    </a>
+                    <p>
+                        Validator.nu is a free service by W3C that helps check the validity of Web documents powered by HTML5.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="tool col-md-4">
-            <a href="http://validator.w3.org/mobile-alpha">Mobile Checker</a>
-            <p>The Mobile Checker is a tool for Web developers who want to make their Web page or Web app work better on mobile devices.</p>
-          </div>
-          <div class="tool col-md-4">
-            <a href="http://validator.w3.org/">Markup Validator</a>
-            <p>The Markup Validator is a free service by W3C that helps check the validity of Web documents powered by HTML or XHTML.</p>
-          </div>
-          <div class="tool col-md-4">
-            <a href="http://validator.w3.org/mobile/">MobileOK Checker</a>
-            <p>The W3C mobileOK Checker is a free service by W3C that helps check the level of mobile-friendliness of Web documents, and in particular assert whether a Web document is mobileOK. </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="tool col-md-4">
-            <a href="http://validator.w3.org/feed/">RSS feed Validator</a>
-            <p>This is a validator for syndicated feeds. It works with RSS 0.90, 0.91, 0.92, 0.93, 0.94, 1.0, and 2.0. It also validates Atom feeds.</p>
-          </div>
-          <div class="tool col-md-4">
-            <a href="http://www.w3.org/RDF/Validator/">RDF Validator</a>
-            <p>Checks and visualizes RDF documents.</p>
-          </div>
-          <div class="tool col-md-4">
-            <a href="http://validator.w3.org/unicorn/">Unicorn</a>
-            <p>Unicorn is W3C's unified validator, which helps people improve the quality of their Web pages by performing a variety of checks. Unicorn gathers the results of the popular HTML and CSS validators, as well as other useful services.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="tool col-md-4">
-            <a href="https://validator.nu/">Validator.nu</a>
-            <p>Validator.nu is a free service by W3C that helps check the validity of Web documents powered by HTML5.</p>
-          </div>
-        </div>
-      </section>
-    </div>
-    <section id="community" class="col-md-12">
-      <div class="container">
-        <h1>Get involved and join a great community</h1>
-        <div class="col-md-4">
-          <span class="glyphicon glyphicon-pencil"></span>
-          <h2>Contribute</h2>
-          <p>
-            Developers are welcome to get involved by contributing to the codebase.<br>
-            <a href="">See how to contribute to our projects</a>.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <span class="glyphicon glyphicon-send"></span>
-          <h2>Get in touch</h2>
-          <p>Why not just come say hi? We are looking forward to chatting with you.</p>
-          <p>
-            <a id="btn" href="http://irc.w3.org/">irc: #devtools</a>
-            <a id="btn" href="https://twitter.com/W3C_DevTools">Twitter</a>
-            <a id="btn" href="http://www.w3.org/blog/validator/">Blog</a>
-            <a id="btn" href="mailto:public-qa-dev@w3.org">Mailing list</a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <span class="glyphicon glyphicon-hand-up"></span>
-          <h2>Community Help</h2>
-          <p>
-            Great communities make great tools. You can help the community and/or ask them for help right now.
-          </p>
-          <p>
-            <a id="btn" href="http://stackoverflow.com/questions/tagged/w3c-developer-tools">Stack Overflow</a>
-            <a id="btn" href="mailto:public-qa-dev@w3.org">Mailing list</a>
-          </p>
-        </div>
-      </div>
     </section>
+      
+    <section id="community" class="col-md-12">
+        <div class="container">
+            <h1><span class="octicon octicon-organization"></span>Great communities make great tools!</h1>
+            <div class="community-category col-md-4">
+                <div class="glyph">
+                    <span class="octicon octicon-git-pull-request"></span>
+                </div>
+                <h2>Contribute</h2>
+                <p>
+                    Developers are welcome to get involved by contributing to the codebase.
+                    <br>
+                    <a href="">See how to contribute to our projects</a>.
+                </p>
+            </div>
+            <div class="community-category col-md-4">
+                <div class="glyph">
+                    <span class="glyphicon glyphicon-send"></span>
+                </div>
+                <h2>Get in touch</h2>
+                <p>
+                    Why not just come say hi? We are looking forward to chatting with you.
+                </p>
+                <p>
+                    <a id="btn" href="http://irc.w3.org/">irc: #devtools</a>
+                    <a id="btn" href="https://twitter.com/W3C_DevTools">Twitter</a>
+                    <a id="btn" href="http://www.w3.org/blog/validator/">Blog</a>
+                    <a id="btn" href="mailto:public-qa-dev@w3.org">Mailing list</a>
+                </p>
+            </div>
+            <div class="community-category col-md-4">
+                <div class="glyph">
+                    <span class="glyphicon glyphicon-hand-up"></span>
+                </div>
+                <h2>Community Help</h2>
+                <p>
+                    Great communities make great tools. You can help the community and/or ask them for help right now.
+                </p>
+                <p>
+                    <a id="btn" href="http://stackoverflow.com/questions/tagged/w3c-developer-tools">Stack Overflow</a>
+                    <a id="btn" href="mailto:public-qa-dev@w3.org">Mailing list</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    
     <div id="ilovevalidators" class="col-md-12">
-      <div class="container">
-        <h1>Help us to make it awesome</h1>
-        <div class="col-md-8 col-md-offset-2">
-          <p>
-            Good tools cost a lot to develop, support, host and maintain: with your help, we can make the validators better, faster, friendlier, and maintain a great, free service for all of the Web.
-          </p>
-          <p>
-            Donations to this program will be used exclusively for the maintenance, hosting and development of our free validation tools and other similar open source projects.<br><br><br>
-            <a id="donate" href="http://www.w3.org/QA/Tools/Donate">Donate (with love)</a>
-          </p>
-          <br>
-          <p id="learn-more">
-            You can also <a href="http://www.w3.org/QA/Tools/Donate"> learn more about support W3C developer tools program</a>.
-          </p>
+        <div class="container">
+            <h1>Help us to make it awesome</h1>
+            <div class="col-md-8 col-md-offset-2">
+                <p>
+                    Good tools cost a lot to develop, support, host and maintain: with your help, we can make the validators better, faster, friendlier, and maintain a great, free service for all of the Web.
+                </p>
+                <p>
+                    Donations to this program will be used exclusively for the maintenance, hosting and development of our free validation tools and other similar open source projects.<br><br><br>
+                    <a id="donate" href="http://www.w3.org/QA/Tools/Donate">Donate (with love)</a>
+                </p>
+                <br>
+                <p id="learn-more">
+                    You can also 
+                    <a href="http://www.w3.org/QA/Tools/Donate"> learn more about support W3C developer tools program</a>.
+                </p>
+            </div>
         </div>
-      </div>
     </div>
+    
     <footer class="col-md-12">
-      <div id="useful-links" class="container">
-        <div id="help" class="col-md-4">
-          <h2>Need Help?</h2>
-          <ul>
-            <li><a href="http://stackoverflow.com/questions/tagged/w3c-developer-tools">Stack Overflow</a></li>
-            <li><a href="mailto:public-qa-dev@w3.org">Mailing list</a></li>
-            <li><a href="http://irc.w3.org">irc (#devtools)</a></li>
-          </ul>
+        <div id="useful-links" class="container">
+            <div id="help" class="col-md-4">
+                <h2>Need Help?</h2>
+                <ul>
+                    <li>
+                        <a href="http://stackoverflow.com/questions/tagged/w3c-developer-tools">Stack Overflow</a>
+                    </li>
+                    <li>
+                        <a href="mailto:public-qa-dev@w3.org">Mailing list</a>
+                    </li>
+                    <li>
+                        <a href="http://irc.w3.org">irc (#devtools)</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="about" class="col-md-4">
+                <h2>About W3C Developer Tools</h2>
+                <ul>
+                    <li>
+                        <a href="#">About developer tools</a>
+                    </li>
+                    <li>
+                        <a href="#">Contribute</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/W3C_DevTools">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="http://www.w3.org/blog/validator/">Blog</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/w3c">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.npmjs.com/~w3c">npm</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="resources" class="col-md-4">
+                <h2>More Resources &amp; Affiliates</h2>
+                <ul>
+                    <li>
+                        <a href="http://www.w3.org">W3C Website</a>
+                    </li>
+                    <li>
+                        <a href="https://www.webplatform.org/">Web Platform</a>
+                    </li>
+                    <li>
+                        <a href="https://www.edx.org/school/w3cx">W3Cx</a>
+                    </li>
+                    <li>
+                        <a href="http://www.w3devcampus.com/">W3DevCampus</a>
+                    </li>
+                    <li>
+                        <a href="http://testthewebforward.org/">Test The Web Forward</a>
+                    </li>
+                    <li>
+                        <a href="https://validator-suite.w3.org/">Validator Suite</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div id="about" class="col-md-4">
-          <h2>About W3C Developer Tools</h2>
-          <ul>
-            <li><a href="#">About developer tools</a></li>
-            <li><a href="#">Contribute</a></li>
-            <li><a href="https://twitter.com/W3C_DevTools">Twitter</a></li>
-            <li><a href="http://www.w3.org/blog/validator/">Blog</a></li>
-            <li><a href="https://github.com/w3c">GitHub</a></li>
-            <li><a href="https://www.npmjs.com/~w3c">npm</a></li>
-          </ul>
+        
+        <div id="copyright" class='container'>
+            <p class="copyright">
+                <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2015 <a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.
+            </p>
         </div>
-        <div id="Community" class="col-md-4">
-          <h2>More Resources &amp; Affiliates</h2>
-          <ul>
-            <li><a href="http://www.w3.org">W3C Website</a></li>
-            <li><a href="https://www.webplatform.org/">Web Platform</a></li>
-            <li><a href="https://www.edx.org/school/w3cx">W3Cx</a></li>
-            <li><a href="http://www.w3devcampus.com/">W3DevCampus</a></li>
-            <li><a href="http://testthewebforward.org/">Test The Web Forward</a></li>
-            <li><a href="https://validator-suite.w3.org/">Validator Suite</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="copyright" class='container'>
-        <p class="copyright">
-          <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2015 <a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.
-        </p>
-      </div>
     </footer>
 
     <aside class="hidden-xs hidden-sm">
-      <a href="https://github.com/w3c/developer-tools/edit/gh-pages/index.html">
-        <span class="glyphicon glyphicon-pencil"></span>
-        Edit on GitHub
-      </a>
+        <a href="https://github.com/w3c/developer-tools/edit/gh-pages/index.html">
+            <span class="glyphicon glyphicon-pencil"></span>
+            Edit on GitHub
+        </a>
     </aside>
+      
   </body>
 </html>

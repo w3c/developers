@@ -15,7 +15,12 @@ a {
 #navbar {
     transition: 0.3s;
     height: 50px;
-    background-color: #5682A3;
+    background-color: #334D5D;
+    --box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#navbar #brand img {
+    margin-top: 5px;
 }
 
 #navbar #social-links {
@@ -28,31 +33,44 @@ a {
 }
 
 header {
-    margin-top: 75px;
-    text-align: left;
+    text-align: center;
     padding: 25px;
+    padding-top: 75px;
     color: #333;
+    height: 300px;
     background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    --background-image: url(../img/background-header-developers.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 20%;
+    background-size: 60%; 
 }
 
+header h1 {
+    text-align: left;
+    font-weight: 300;
+}
+    
 header p {
     font-size: 20px;
     font-weight: 300;
 }
 
 #tools h1 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 300;
     color: #5682A3;
-    padding-bottom: 20px;
     border-bottom: 2px solid #eee;
     margin-bottom: 50px;
 }
 
 #tools {
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 2px;
 }
 
 #tools #index {
@@ -81,7 +99,7 @@ header p {
 }
 .tool a {
     color: #666;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     text-align: left;
     text-decoration: none;
@@ -107,26 +125,38 @@ header p {
 
 #community h1{
     text-align: center;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 700;
     color: #5682A3;
     padding-bottom: 20px;
-    border-bottom: 2px solid #eee;
     margin-bottom: 50px;
+}
+
+#community h1 span {
+    padding-right: 20px;
+    font-size: 50px;
 }
 
 #community h2{
     text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    color: #517b9a;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5682A3;
     margin-top: 15px;
 }
-
-#community span {
-    margin-top: 20px;
-    font-size: 40px;
-    color: #5682A3;
+#community .community-category .glyph {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 100%;
+    background-color:#5682A3;
+    margin: auto;
+    
+}
+#community .community-category span {
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
     text-align: center;
 }
 
