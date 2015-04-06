@@ -8,31 +8,37 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="octicons/octicons.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
   </head>
   <body>
     <!--
     top navbar fixed
     -->
-    <nav id="navbar" class="navbar-fixed-top">
+    <nav id="navbar" class="">
         <div class="container">
             <div id="brand" class="col-md-2">
                 <a href="#"><img src="img/developers-white-logo.png" height="40"></a>
             </div>
-            <div id="social-links" class="col-md-10">
-                <a href="https://github.com/w3c/">
-                    <img src="img/github.png" height="20px">
-                </a>
-                <a href="https://twitter.com/W3C_DevTools">
-                    <img src="img/twitter.png" height="20px">
-                </a>
-            </div>
+            <ul id="social-links" class="navbar-right">
+                <li>  
+                    <a href="https://github.com/w3c/"><img src="img/github.png" height="20px"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/W3C_DevTools"><img src="img/twitter.png" height="20px"></a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span id="donate" class="octicon octicon-heart animated infinite pulse"></span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 
     <header class="col-md-12">
         <div class="container">
+                <h1>Lead your code to its full potential.</h1>
             <div class="col-md-6">
-                <h1>Lead your code to his full potential.</h1>
             </div>
             <div class="col-md-6"></div>
         </div>
@@ -129,7 +135,8 @@
       
     <section id="community" class="col-md-12">
         <div class="container">
-            <h1><span class="octicon octicon-organization"></span>Great communities make great tools!</h1>
+            <h1>Great <strong>communities</strong> make great tools</h1>
+            <div class="row">
             <div class="community-category col-md-4">
                 <div class="glyph">
                     <span class="octicon octicon-git-pull-request"></span>
@@ -137,51 +144,60 @@
                 <h2>Contribute</h2>
                 <p>
                     Developers are welcome to get involved by contributing to the codebase.
-                    <br>
-                    <a href="">See how to contribute to our projects</a>.
                 </p>
             </div>
             <div class="community-category col-md-4">
                 <div class="glyph">
                     <span class="glyphicon glyphicon-send"></span>
                 </div>
-                <h2>Get in touch</h2>
+                <h2>Send Feedbacks</h2>
                 <p>
-                    Why not just come say hi? We are looking forward to chatting with you.
-                </p>
-                <p>
-                    <a id="btn" href="http://irc.w3.org/">irc: #devtools</a>
-                    <a id="btn" href="https://twitter.com/W3C_DevTools">Twitter</a>
-                    <a id="btn" href="http://www.w3.org/blog/validator/">Blog</a>
-                    <a id="btn" href="mailto:public-qa-dev@w3.org">Mailing list</a>
+                    Why not just come round and say hi? We are looking forward to chat with you.
                 </p>
             </div>
             <div class="community-category col-md-4">
                 <div class="glyph">
                     <span class="glyphicon glyphicon-hand-up"></span>
                 </div>
-                <h2>Community Help</h2>
+                <h2>Getting Help</h2>
                 <p>
-                    Great communities make great tools. You can help the community and/or ask them for help right now.
+                    You can help the community and/or ask them for help right now.
                 </p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="community-category col-md-4">
+                <div class="glyph">
+                    <span class="octicon octicon-comment-discussion"></span>
+                </div>
+                <h2>Get in Touch</h2>
                 <p>
-                    <a id="btn" href="http://stackoverflow.com/questions/tagged/w3c-developer-tools">Stack Overflow</a>
-                    <a id="btn" href="mailto:public-qa-dev@w3.org">Mailing list</a>
+                    Many ways to get in touch with the W3C developer community. We are looking forward to chat with you.
                 </p>
+            </div>
+            <div class="community-category col-md-4">
+                <div class="glyph">
+                    <span class="octicon octicon-star"></span>
+                </div>
+                <h2>Recognition</h2>
+                <p>
+                    Get recognition for your involvement in Free and Open world wide web projects.
+                </p>
+            </div>
             </div>
         </div>
     </section>
     
     <div id="ilovevalidators" class="col-md-12">
         <div class="container">
-            <h1>Help us to make it awesome</h1>
+            <h1>Help us to make it <strong>awesome</strong></h1>
             <div class="col-md-8 col-md-offset-2">
                 <p>
                     Good tools cost a lot to develop, support, host and maintain: with your help, we can make the validators better, faster, friendlier, and maintain a great, free service for all of the Web.
                 </p>
                 <p>
                     Donations to this program will be used exclusively for the maintenance, hosting and development of our free validation tools and other similar open source projects.<br><br><br>
-                    <a id="donate" href="http://www.w3.org/QA/Tools/Donate">Donate (with love)</a>
+                    <a id="donate" href="http://www.w3.org/QA/Tools/Donate">Donate</a>
                 </p>
                 <br>
                 <p id="learn-more">

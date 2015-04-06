@@ -27,29 +27,38 @@ a {
     text-align: right;
 }
 
+#navbar #social-links li {
+    text-align: right;
+    list-style-type: none;
+    float: left;
+}
+
 #navbar #social-links img {
     margin: 5px;
     margin-top: 15px;
 }
 
+#navbar #donate {
+    padding-left: 40px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #F47983;
+    color: #DB6565;
+}
 header {
     text-align: center;
     padding: 25px;
     padding-top: 75px;
-    color: #333;
-    height: 300px;
+    color: #334D5D;
+    height: 200px;
     background-color: white;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    --background-image: url(../img/background-header-developers.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 20% 20%;
-    background-size: 60%; 
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 header h1 {
-    text-align: left;
+    text-align: center;
     font-weight: 300;
+    font-size: 40px;
 }
     
 header p {
@@ -58,19 +67,19 @@ header p {
 }
 
 #tools h1 {
-    text-align: left;
-    font-size: 45px;
+    text-align: center;
+    font-size: 40px;
     font-weight: 300;
-    color: #5682A3;
-    border-bottom: 2px solid #eee;
+    color: #334D5D;
+    padding-bottom: 20px;
     margin-bottom: 50px;
 }
 
 #tools {
-    padding-top: 0px;
     padding-bottom: 20px;
     background-color: white;
-    border-radius: 2px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #tools #index {
@@ -113,6 +122,7 @@ header p {
     text-align: left;
     font-weight: 400;
     color: #666;
+    font-size: 16px;
     margin-top: 10px;
 }
 
@@ -120,18 +130,23 @@ header p {
     background-color: white;
     padding-top: 20px;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #community h1{
     text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    color: #5682A3;
+    font-size: 40px;
+    font-weight: 300;
+    color: #334D5D;
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
 
+#community h1 strong {
+    color: #5682A3;
+    font-weight: 300;
+}
 #community h1 span {
     padding-right: 20px;
     font-size: 50px;
@@ -139,31 +154,37 @@ header p {
 
 #community h2{
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: #5682A3;
     margin-top: 15px;
 }
 #community .community-category .glyph {
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
     text-align: center;
     border-radius: 100%;
-    background-color:#5682A3;
+    background-color:white;
+    border: 3px solid #5682A3;
     margin: auto;
     
 }
 #community .community-category span {
-    margin-top: 50px;
+    margin-top: 45px;
     font-size: 50px;
-    color: white;
+    color: #5682A3;
     text-align: center;
+}
+
+#community .row {
+    margin-top: 50px;
 }
 
 #community p {
     text-align: left;
     font-weight: 400;
     color: #666;
+    font-size: 16px;
 }
 
 .community-box {
@@ -178,39 +199,53 @@ header p {
 }
 
 #ilovevalidators {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    background-color: #E7EBF0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: #F6F4EC;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #ilovevalidators h1 {
     text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    color: #5682A3;
+    font-size: 40px;
+    font-weight: 300;
+    color: #334D5D;
     padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+#ilovevalidators h1 strong {
+    font-weight: 300;
+    color: #DB6565;
 }
 
 #ilovevalidators p {
     text-align: center;
     font-weight: 400;
     color: #666;
+    font-size: 16px;
 }
 
 #ilovevalidators #donate {
-    padding: 18px;
-    background-color: #e42152;
-    border-radius: 2px;
-    color: white;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #F6F4EC;
+    border-radius: 5px;
+    color: #DB6565;
     font-weight: 400;
+    font-size: 20px;
     text-decoration: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 2px solid #DB6565;
+    --box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 #ilovevalidators #donate:hover {
     transition: 0.3s;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #DB6565;
+    color: #F6F4EC;
+    --box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #ilovevalidators img {
@@ -277,3 +312,4 @@ aside a:hover {
     color: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
