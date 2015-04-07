@@ -117,7 +117,7 @@ header .category .category-header {
 }
 
 header .category .category-content h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: Bitter;
     color: #666;
     font-weight: 700;
@@ -164,26 +164,31 @@ header .category span {
 
 #tools h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 300;
     color: #334D5D;
     padding-bottom: 20px;
-    margin-bottom: 50px;
+}
+
+#tools h1 strong {
+    color: #DB6565;
+    font-weight: 300;
 }
 
 #tools {
     padding-bottom: 20px;
+    padding-top: 20px;
     background-color: white;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 
 .tool {
     margin-top: 50px;
 }
 .tool a {
-    color: #666;
+    color: #5D8CAE;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     text-decoration: none;
 }
