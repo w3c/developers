@@ -102,6 +102,8 @@ header .category {
     background-color: white;
     border-radius: 5px;
     padding: 0px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
 header .row {
