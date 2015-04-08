@@ -118,9 +118,9 @@ header .category .category-header {
 
 header .category .category-content h2 {
     font-size: 1.3rem;
+    font-weight: 300;
     font-family: Bitter;
     color: #666;
-    font-weight: 700;
 }
 
 header .category .category-content p {
