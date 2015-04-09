@@ -1,0 +1,29 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    height: 100%;
+    font-family: Open Sans, Sans Serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #ecf0f1;
+}
+
+#why h2 {
+    color: #334D5D;
+    font-size: 1.3rem;
+    font-family: Bitter;
+    font-weight: 700;
+}
+
+#why p {
+
+}
+
+#donate form {
+    background-color: white;
+    height: 600px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
