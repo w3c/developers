@@ -97,7 +97,8 @@ header img {
 
 header .category {
     margin-top: 50px;
-    height: 400px;
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
     background-color: white;
     border-radius: 5px;
@@ -124,7 +125,7 @@ header .category .category-content h2 {
 }
 
 header .category .category-content p {
-    font-size: 16px;
+    font-size: 0.9rem;
     color: #666;
     font-weight: 400;
     text-align: left;
