@@ -30,7 +30,7 @@ html, body{
     margin-bottom: 30px;
 }
 
-#donate form .amount button {
+label div {
     height: 70px;
     width: 120px;
     color: #334D5D;
@@ -40,14 +40,16 @@ html, body{
     background-color: #ecf0f1;
     border-radius: 5px;
     border: 0px;
+    cursor: pointer;
+    padding-top: 20px;
 }
 
-#donate form .amount button:hover {
-    background-color: rgba(219, 101, 101, 0.2);
-    transition: 0.2s;
+label div:hover {
+    background-color: rgba(219, 101, 101, 0.6);
+    color: white;
 }
 
-#donate form .amount.active button {
+label > input:checked + div {
     background-color: #DB6565;
     color: white;
 }
