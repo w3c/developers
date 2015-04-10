@@ -41,12 +41,13 @@ label div {
     border-radius: 5px;
     border: 0px;
     cursor: pointer;
-    padding-top: 20px;
+    padding-top: 18px;
 }
 
 label div:hover {
-    background-color: rgba(219, 101, 101, 0.6);
-    color: white;
+    background-color: rgba(219, 101, 101, 0.1);
+    color: #334D5D;
+    transition: 0.3s;
 }
 
 label > input:checked + div {
