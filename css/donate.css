@@ -19,7 +19,7 @@ html, body{
 }
 
 #donate form h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: Open Sans;
     font-weight: 300;
     color: #334D5D;
@@ -99,10 +99,12 @@ html, body{
     text-align: center;
     font-size: 1.3rem;
     font-weight: 300;
-    background-color: #ecf0f1;
+    background-color: white;
     border-radius: 5px;
     border: 0px;
     margin-top: 30px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
 #submit_payment button#paypal {
