@@ -27,17 +27,34 @@
         </header>
         <section id="main">
             <div class="container">
-                <section id="donate" class="col-md-6">
-                    <form class="col-md-12"></form>
-                </section>
-                <section id="why" class="col-md-6">
-                    <h2>Why donate to W3C developers community?</h2>
-                    <p>
-                        Good tools cost a lot to develop, support, host and maintain: with your help, we can make the validators better, faster, friendlier, and maintain a great, free service for all of the Web.
-                    </p>
-                    <p>
-                        Donations to this program will be used exclusively for the maintenance, hosting and development of our free validation tools and other similar open source projects.
-                    </p>
+                <section id="donate" class="col-md-6 col-md-offset-3">
+                    <form class="col-md-12">
+                        <fieldset>
+                            <legend class="row">Donate</legend>
+                            <input name="donation_amount" value="20" id="amount-20"required="" type="radio">
+                            <label class="amount active" for="amount-20">
+                                <button>$20</button>
+                            </label>
+                            <input name="donation_amount" value="10" id="amount-10"required="" type="radio">
+                            <label class="amount">
+                                <button>$10</button>
+                            </label>
+                            <input name="donation_amount" value="5" id="amount-5"required="" type="radio">
+                            <label class="amount">
+                                <button>$5</button>
+                            </label>
+                            <input type="radio" name="amountOption" id="input_amount_other" value="Other">
+                            <label class="amount_other">
+                                $
+                                <input type="text" placeholder="Other Amount">
+                            </label>
+                        <div id="submit_payment" class="row">
+                            <button id="paypal">
+                            </button>
+                        </div>
+                            <p id="instructions">PayPal recipient will be GEIE ERCIM, which is the W3C host organisation handling the donations.</p>
+                        </fieldset>
+                    </form>
                 </section>
             </div>
         </section>

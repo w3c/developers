@@ -9,21 +9,100 @@ html, body{
     background-color: #ecf0f1;
 }
 
-#why h2 {
-    color: #334D5D;
-    font-size: 1.3rem;
-    font-family: Bitter;
-    font-weight: 700;
-}
-
-#why p {
-
-}
-
 #donate form {
     background-color: white;
-    height: 600px;
+    padding-bottom: 20px;
     border-radius: 5px;
     border: 1px solid rgba(0,0,0,0.1);
     border-bottom: 2px solid rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+#donate form legend {
+    font-size: 2.5rem;
+    font-family: Open Sans;
+    font-weight: 300;
+    color: #334D5D;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-bottom: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#donate form .amount button {
+    height: 70px;
+    width: 120px;
+    color: #334D5D;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#donate form .amount button:hover {
+    background-color: rgba(219, 101, 101, 0.2);
+    transition: 0.2s;
+}
+
+#donate form .amount.active button {
+    background-color: #DB6565;
+    color: white;
+}
+
+#donate form .amount_other {
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    color: #334D5D;
+    padding: 10px;
+}
+
+#donate form .amount_other input {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding-left: 10px;
+    
+}
+
+#submit_payment {
+    text-align: center;
+}
+
+#submit_payment button {
+    width: 200px;
+    color: #334D5D;
+    height: 100px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 30px;
+}
+
+#submit_payment button#paypal {
+    background-image: url(../img/paypal.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+#instructions {
+    margin-top: 40px;
+    color: #666;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+input[type="radio"] {
+  display: none;
 }
