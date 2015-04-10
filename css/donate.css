@@ -30,7 +30,7 @@ html, body{
     margin-bottom: 30px;
 }
 
-label div {
+.amount div {
     height: 70px;
     width: 120px;
     color: #334D5D;
@@ -44,35 +44,49 @@ label div {
     padding-top: 18px;
 }
 
-label div:hover {
+.amount div:hover {
     background-color: rgba(219, 101, 101, 0.1);
     color: #334D5D;
     transition: 0.3s;
 }
 
-label > input:checked + div {
+.amount > input:checked + div {
     background-color: #DB6565;
     color: white;
 }
 
-#donate form .amount_other {
-    font-size: 1.3rem;
+.amount_other div {
+    color: #334D5D;
+    font-size: 1.5rem;
     font-weight: 300;
     background-color: #ecf0f1;
     border-radius: 5px;
-    color: #334D5D;
+    border: 0px;
+    cursor: pointer;
     padding: 10px;
+    text-align: left;
 }
 
-#donate form .amount_other input {
+.amount_other div input {
     height: 50px;
     width: 200px;
     border-radius: 5px;
     font-size: 1.3rem;
     font-weight: 300;
     border: 1px solid rgba(0,0,0,0.1);
+    color: #334D5D;
     padding-left: 10px;
-    
+}
+
+.amount_other div:hover {
+    background-color: rgba(219, 101, 101, 0.1);
+    color: #334D5D;
+    transition: 0.3s;
+}
+
+.amount_other > input:checked + div {
+    background-color: #DB6565;
+    color: white;
 }
 
 #submit_payment {

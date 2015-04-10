@@ -48,11 +48,19 @@
                                 <input name="donation_amount" value="5" onclick="this.form.amount.value=5;" id="amount-5" required="" type="radio">
                                 <div>$5</div>
                             </label>
-                            <input type="radio" name="amountOption" id="input_amount_other" value="Other">
                             <label class="amount_other">
-                                $
-                                <input type="text" placeholder="Other Amount">
+                                <input name="donation_amount" type="radio">
+                                <div>$
+                                    <input name="amountEntered" type="text" placeholder="Other Amount" onchange="this.form.amount.value=this.form.amountEntered.value;">
+                                </div>
                             </label>
+                            <!--<label class="amount_other">
+                                $
+                                <input type="radio" name="donation_amount" id="input_amount_other" value="Other">
+                                <div>
+                                    <input type="text" placeholder="Other Amount">
+                                </div>
+                            </label>-->
                         <div id="submit_payment" class="row">
                             <button id="paypal">
                             </button>
