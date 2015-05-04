@@ -46,19 +46,19 @@
 }
 
 #hero #developers-logo {
-	margin-top: 125px;
-	margin-bottom: 125px;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 #hero h2 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 300;
 	color: white;
 	text-align: center;
 }
 
 #hero h2 strong {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 300;
 	background-color: #694D9F;
 	padding: 5px;
