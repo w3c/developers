@@ -1,0 +1,173 @@
+#navbar {
+    background-color: rgba(51, 60, 78, 1);
+	height: 60px;
+	background: url(../img/noise.png) rgba(51, 60, 78, 1);
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 3px;
+}
+
+#navbar #toggle span {
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#navbar #join-us {
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+#navbar #brand {
+    text-decoration: none;
+	padding-top: 10px;
+}
+
+#navbar #page-name {
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#tools {
+    background-color: #ecf0f1;
+    padding-bottom: 30px;
+}
+
+#tools .row {
+    margin-top: 30px;
+}
+
+#tools .tool {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+#tools .tool h2 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #747c83;
+	text-align: center;
+    text-transform: uppercase;
+}
+
+#tools .tool-icon span {
+    font-size: 2rem;
+}
+
+#tools #support {
+    margin-top: 50px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+#contribute {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: white;
+    text-align: left;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+#contribute h1 {
+    margin-bottom: 70px;
+	text-align: center;
+}
+
+#contribute h2 {
+    margin-top: 40px;  
+}
+
+#contribute #github-btn {
+    margin-top: 40px;
+    text-align: center;
+	text-transform: uppercase;
+}
+
+#community {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    background-color: rgba(51, 60, 78, 1);
+	text-align: center;
+}
+
+#community h1{
+	color: white;
+}
+
+#community-btn {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#community-btn a {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#donate {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color:#ecf0f1;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+#donate h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #62798d;
+    text-align: left;
+}
+
+#donate p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #62798d;
+    text-align: left;
+}
+
+#donate #donate-btn {
+    text-align: left;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+#donate #donate-btn a {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #DC4E3E;
+    background-color: #DC4E3E;
+}
+
+#donate #donate-btn a:hover {
+    color: white;
+    border: 1px solid #D02E27;
+    background-color: #D02E27;
+    
+}

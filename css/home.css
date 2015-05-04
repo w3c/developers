@@ -1,0 +1,215 @@
+#navbar {
+	height: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 0px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 3px;
+}
+
+#navbar #toggle span {
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#navbar #join-us {
+	padding: 15px;
+}
+
+#navbar #brand {
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#navbar a {
+	font-size: 0.7rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#hero {
+    text-align: center;
+	background: rgba(51, 60, 78, 0.7);
+    padding-top: 50px;
+    padding-bottom: 200px;
+	height: 80%;
+}
+
+#hero #developers-logo {
+	margin-top: 125px;
+	margin-bottom: 125px;
+}
+
+#hero h2 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}
+
+#hero h2 strong {
+	font-size: 1.5rem;
+	font-weight: 300;
+	background-color: #694D9F;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+#hero #play-btn {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	border:none;
+	background-image: none;
+	background-color: white;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#hero #play-btn span {
+	font-size: 1rem;
+}
+
+#overview {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+#overview p {
+    font-size: 0.8rem;
+    font-weight: 400;
+	margin-top: 15px;
+}
+
+#overview .row {
+    margin-top: 30px;
+}
+
+#overview .icon-overview {
+    margin: auto;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 1px solid #747c83;
+    padding-top: 15px;
+}
+
+#overview .icon-overview span {
+    font-size: 30px;
+}
+
+#overview a {
+	text-transform: uppercase;
+}
+
+#tools {
+    padding-bottom: 80px;
+    padding-top: 60px;
+    background-color:white;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+#tools span {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+    color: #62798d;
+
+}
+
+#tools h1 {
+    text-align: center;
+}
+
+#tools h2 {
+	margin-top: 0px;
+}
+
+#tools p {
+    text-align: left; 
+}
+
+#tools #tools-btn {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#tools #tools-btn a {
+	text-transform: uppercase;
+}
+
+#documented-web {
+    padding-bottom: 200px;
+    padding-top: 60px;
+    background-color: white;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+#documented-web h1 {
+	margin-top: 150px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+#documented-web #webplatform-btn {
+    margin-top: 50px;
+}
+
+#documented-web #webplatform-btn a {
+	text-transform: uppercase;
+}
+
+#learning {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+#community {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: rgba(51, 60, 78, 1);
+	background: url(../img/noise.png) rgba(51, 60, 78, 1);
+}
+
+#community h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#community-btn {
+    padding-top: 0px;
+    text-align: center;
+}
+
+#community-btn a {
+    text-transform: uppercase;
+}
+
+.sr {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}

@@ -1,12 +1,7 @@
-html, body{
-    margin: 0px;
-    padding: 0px;
-    outline: 0px;
-    height: 100%;
-    font-family: Open Sans, Sans Serif;
-    font-weight: 400;
-    font-size: 16px;
-    background-color: #ecf0f1;
+
+
+body {
+	background: url('http://www.w3.org/conf/2013sf/img/noise.png') rgba(51, 60, 78, 1);
 }
 
 #donate form {
