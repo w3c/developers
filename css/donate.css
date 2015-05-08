@@ -1,121 +1,220 @@
-
-
-body {
-	background: url('http://www.w3.org/conf/2013sf/img/noise.png') rgba(51, 60, 78, 1);
+header {
+	padding-top: 50px;
 }
 
-#donate form {
-    background-color: white;
-    padding-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid rgba(0,0,0,0.1);
-    border-bottom: 2px solid rgba(0,0,0,0.2);
-    text-align: center;
+#navbar {
+	margin-top: 50px;
+	height: 60px;
+	margin-bottom: 50px;
 }
 
-#donate form h2 {
-    font-size: 2rem;
-    font-family: Open Sans;
-    font-weight: 300;
-    color: #334D5D;
-    margin-top: 20px;
-    border-bottom: none;
-    text-align: center;
-    margin-bottom: 30px;
+#navbar ul {
+    list-style-type: none;
+    padding-left: 0px;
 }
 
-.amount div {
-    height: 70px;
-    width: 120px;
-    color: #334D5D;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 300;
-    background-color: #ecf0f1;
-    border-radius: 5px;
-    border: 0px;
-    cursor: pointer;
-    padding-top: 18px;
+#navbar ul li {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 3px;
 }
 
-.amount div:hover {
-    background-color: rgba(219, 101, 101, 0.1);
-    color: #334D5D;
-    transition: 0.3s;
-}
-
-.amount > input:checked + div {
-    background-color: #DB6565;
+#navbar #toggle span {
     color: white;
+    font-size: 30px;
+    margin-top: 15px;
 }
 
-.amount_other div {
+#thanks {
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 300;
+	color: #747c83;
+	margin-bottom: 30px;
+}
+#navbar #join-us {
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+#navbar #brand {
+    text-decoration: none;
+	padding-top: 10px;
+}
+
+#navbar #page-name {
+    font-size: 1.2rem;
+    padding-top: 13px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+	font-family: Bitter;
+}
+
+header h1 {
+	margin-top: 0px;
+	font-size: 1rem;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#donate {
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 2px;
+	background-color: white;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#donate ul {
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+#donate ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+#donate #payment-method {
+	margin-bottom: 0px;
+}
+
+#donate #payment-method label {
+	height: 70px;
+	width: 182px;
     color: #334D5D;
-    font-size: 1.5rem;
+    text-align: center;
     font-weight: 300;
-    background-color: #ecf0f1;
-    border-radius: 5px;
-    border: 0px;
+    border-radius: 2px;
     cursor: pointer;
-    padding: 10px;
-    text-align: left;
+	border: 1px solid rgba(0,0,0,0.2);
+	vertical-align: middle;
+	transition: 0.3s;
+	background-image: none;
+	background-color: white;
+	margin-top: 10px;
 }
 
-.amount_other div input {
-    height: 50px;
-    width: 200px;
-    border-radius: 5px;
-    font-size: 1.3rem;
-    font-weight: 300;
-    border: 1px solid rgba(0,0,0,0.1);
-    color: #334D5D;
-    padding-left: 10px;
-}
-
-.amount_other div:hover {
-    background-color: rgba(219, 101, 101, 0.1);
-    color: #334D5D;
-    transition: 0.3s;
-}
-
-.amount_other > input:checked + div {
-    background-color: #DB6565;
-    color: white;
-}
-
-#submit_payment {
-    text-align: center;
-}
-
-#submit_payment button {
-    width: 200px;
-    color: #334D5D;
-    height: 100px;
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 300;
-    background-color: white;
-    border-radius: 5px;
-    border: 0px;
-    margin-top: 30px;
-    border: 1px solid rgba(0,0,0,0.1);
-    border-bottom: 2px solid rgba(0,0,0,0.2);
-}
-
-#submit_payment button#paypal {
+#donate #payment-method label[for="paypal"] {
     background-image: url(../img/paypal.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
 }
 
-#instructions {
-    margin-top: 40px;
-    color: #666;
-    font-size: 0.8rem;
+#donate #payment-method label[for="credit"] {
+    background-image: url(../img/credit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+#donate #payment-method input[type="radio"]:checked + label {
+	border: 1px solid #D02E27;
+    color: white;
+}
+
+.amount label {
+    height: 50px;
+    width: 120px;
+    color: #334D5D;
+    text-align: center;
     font-weight: 300;
+    border-radius: 2px;
+    cursor: pointer;
+	border: 1px solid rgba(0,0,0,0.2);
+	vertical-align: middle;
+	transition: 0.3s;
+	padding-top: 12px;
+}
+
+.amount label:hover {
+	background-color: rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.amount input[type="radio"]:checked + label {
+    background-color: #D02E27;
+	border: 1px solid #D02E27;
+    color: white;
+}
+
+.other_amount label {
+    height: 50px;
+    color: #334D5D;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 2px;
+    cursor: pointer;
+	border: 1px solid rgba(0,0,0,0.2);
+	vertical-align: middle;
+	padding: 0px;
+	padding-left: 15px;
+	transition:0.3s;
+}
+
+.other_amount label input {
+	width: 200px;
+	border: 0px;
+	font-size: 0.8rem;
+	height: 100%;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.other_amount label:hover {
+	background-color: rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.other_amount input[type="radio"]:checked + label {
+    background-color: #D02E27;
+	border: 1px solid #D02E27;
+    color: white;
+}
+
+.other_amount input[type="radio"]:checked + label > input {
+	color: #747c83;
+}
+
+form .submit_payment {
+	text-align: center;
+	margin-top: 30px;
+}
+
+form .submit_payment button {
+    height: 50px;
+    width: 120px;
+    color: #334D5D;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 2px;
+    cursor: pointer;
+	border: 1px solid rgba(0,0,0,0.2);
+	vertical-align: middle;
+	transition: 0.3s;
+	background-color: white;
+}
+
+form .submit_payment button:hover {
+	background-color: rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.border {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 input[type="radio"] {
-  display: none;
+    display: none;
+}
+
+footer {
+	margin-top: 80px;
 }

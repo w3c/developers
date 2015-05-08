@@ -10,62 +10,118 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/donate.css">
         </head>
-    <body>    
+    <body>
 		
-    <header id="hero" class="col-md-12">
+    <nav id="navbar" class="col-md-12">
         <div class="container">
-            <div id="intro" class="col-md-6 col-md-offset-3">
-                <img src="img/developers.svg" width="80%" alt="developers">
-            </div>
+            <a id="toggle" class="hidden-lg hidden-md" href="#">
+                <span class="octicon octicon-three-bars" aria-hidden="true"></span>
+				<span class="sr">Menu</span>
+            </a>
+            <a id="brand" class="hidden-sm hidden-xs navbar-left" href="index.html">
+                <img src="img/developers-min.svg" height="40">
+            </a>
         </div>
-    </header>
-        
-        <section id="main">
-            <div class="container">
-                <section id="donate" class="col-md-6 col-md-offset-3">
-                    <form class="col-md-12" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <fieldset class="col-md-12">
-                            <input type="hidden"  name="cmd" value="_donations" id="cmd_donation">
-                            <input type="hidden" name="business" value="&#x76;&#x61;&#x6C;&#x69;&#x64;&#x61;&#x74;&#x6F;&#x72;&#x2D;&#x64;&#x6f;&#x6e;&#x61;&#x74;&#x65;&#x40;w3.org">
-                            <input type="hidden" name="item_name" value="W3C Validators Supporter's donation">
-                            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHosted">
-                            <input type="hidden" name="amount" value="20">
-                            <h2>Donate</h2>
-                            <label class="amount">
-                                <input name="donation_amount" value="20" onclick="this.form.amount.value=20;" id="amount-20" required="" type="radio" checked="checked">
-                                <div>$20</div>
-                            </label>
-                            <label class="amount">
-                                <input name="donation_amount" value="10" onclick="this.form.amount.value=10;" id="amount-10" required="" type="radio">
-                                <div>$10</div>
-                            </label>
-                            <label class="amount">
-                                <input name="donation_amount" value="5" onclick="this.form.amount.value=5;" id="amount-5" required="" type="radio">
-                                <div>$5</div>
-                            </label>
-                            <label class="amount_other">
-                                <input name="donation_amount" type="radio">
-                                <div>$
-                                    <input name="amountEntered" type="text" placeholder="Other Amount" onchange="this.form.amount.value=this.form.amountEntered.value;">
-                                </div>
-                            </label>
-                            <!--<label class="amount_other">
-                                $
-                                <input type="radio" name="donation_amount" id="input_amount_other" value="Other">
-                                <div>
-                                    <input type="text" placeholder="Other Amount">
-                                </div>
-                            </label>-->
-                        <div id="submit_payment" class="row">
-                            <button id="paypal">
+    </nav>
+		
+		<h1 id="thanks">Donate to developer tools</h1>
+		<section id="donate" class="col-md-4 col-md-offset-4">
+			<div id="payment-method">
+				<ul>
+					<li>
+						<input name="payment_method" id="paypal" type="radio" checked="checked" onclick="paypal();">
+						<label for="paypal"></label>
+					</li>
+					<li>
+						<input name="payment_method" id="credit" type="radio" onclick="credit();">
+						<label for="credit"></label>
+					</li>
+				</ul>
+			</div>
+			<div class="border col-md-12"></div>
+			<div id="form_field_paypal" class="col-md-12">
+				<form class="col-md-12" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<fieldset class="col-md-12">
+                    	<input type="hidden"  name="cmd" value="_donations" id="cmd_donation">
+                        <input type="hidden" name="business" value="&#x76;&#x61;&#x6C;&#x69;&#x64;&#x61;&#x74;&#x6F;&#x72;&#x2D;&#x64;&#x6f;&#x6e;&#x61;&#x74;&#x65;&#x40;w3.org">
+                        <input type="hidden" name="item_name" value="W3C Validators Supporter's donation">
+                        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHosted">
+                        <input type="hidden" name="amount" value="20">
+						<ul>
+							<li class="amount">
+                        		<input name="donation_amount" value="20" onclick="this.form.amount.value=20;" id="amount-20" required="" type="radio" checked="checked">
+                            	<label for="amount-20">$20</label>
+							</li>
+							<li class="amount">
+                        		<input name="donation_amount" value="10" onclick="this.form.amount.value=10;" id="amount-10" required="" type="radio">
+                            	<label for="amount-10">$10</label>
+							</li>
+							<li class="amount">
+                        		<input name="donation_amount" value="5" onclick="this.form.amount.value=5;" id="amount-5" required="" type="radio">
+                            	<label for="amount-5">$5</label>
+							</li>
+							<li class="amount">
+                        		<input name="donation_amount" value="3" onclick="this.form.amount.value=3;" id="amount-3" required="" type="radio">
+                            	<label for="amount-3">$3</label>
+							</li>
+							<li class="other_amount">
+                                <input name="donation_amount" id="input_other_amount" type="radio">
+								<label for="input_other_amount">
+									$
+                                    <input name="amountEntered" type="text" onclick="this.form.input_other_amount.checked=true;" placeholder="Other Amount" onchange="this.form.amount.value=this.form.amountEntered.value;">
+								</label>
+							</li>
+						</ul>
+                        <div class="submit_payment col-md-12">
+                            <button>
+								Submit
                             </button>
                         </div>
-                            <p id="instructions">PayPal recipient will be GEIE ERCIM, which is the W3C host organisation handling the donations.</p>
-                        </fieldset>
-                    </form>
-                </section>
-            </div>
-        </section>
+					</fieldset>
+				</form>
+			</div>
+			<div id="form_field_credit" class="col-md-12" style="display:none;">
+				<form class="col-md-12" action="https://shopmitprd.mit.edu/web/buy" method="post">
+					<fieldset class="col-md-12">
+                    	<input type="hidden"  name="cmd" value="_donations" id="cmd_donation">
+                        <input type="hidden" name="business" value="&#x76;&#x61;&#x6C;&#x69;&#x64;&#x61;&#x74;&#x6F;&#x72;&#x2D;&#x64;&#x6f;&#x6e;&#x61;&#x74;&#x65;&#x40;w3.org">
+                        <input type="hidden" name="item_name" value="W3C Validators Supporter's donation">
+                        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHosted">
+                        <input type="hidden" name="amount" value="20">
+						<ul>
+							<li class="amount">
+                        		<input name="donation_amount" value="20" onclick="this.form.amount.value=20;" id="amount-20" required="" type="radio" checked="checked">
+                            	<label for="amount-20">$20</label>
+							</li>
+							<li class="amount">
+                        		<input name="donation_amount" value="10" onclick="this.form.amount.value=10;" id="amount-10" required="" type="radio">
+                            	<label for="amount-10">$10</label>
+							</li>
+							<li class="amount">
+                        		<input name="donation_amount" value="5" onclick="this.form.amount.value=5;" id="amount-5" required="" type="radio">
+                            	<label for="amount-5">$5</label>
+							</li>
+							<li class="amount">
+                        		<input name="donation_amount" value="3" onclick="this.form.amount.value=3;" id="amount-3" required="" type="radio">
+                            	<label for="amount-3">$3</label>
+							</li>
+							<li class="other_amount">
+                                <input name="donation_amount" id="input_other_amount" type="radio">
+								<label for="input_other_amount">
+									$
+                                    <input name="amountEntered" type="text" onclick="this.form.input_other_amount.checked=true;" placeholder="Other Amount" onchange="this.form.amount.value=this.form.amountEntered.value;">
+								</label>
+							</li>
+						</ul>
+                        <div class="submit_payment col-md-12">
+                            <button>
+								Submit
+                            </button>
+                        </div>
+					</fieldset>
+				</form>
+			</div>
+		</section>
     
     	<footer class="col-md-12">
         	<div id="useful-links" class="container">
@@ -153,5 +209,6 @@
             	</p>
         	</div>
     	</footer>
+		<script src="js/donate.js"></script>
   </body>
 </html>

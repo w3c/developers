@@ -6,7 +6,7 @@ function onYouTubeIframeAPIReady() {
 		width: window.innerWidth,
     	playerVars: { 'autoplay': 1, 'controls': 0, 'loop': 1, 'modestbranding': 1, 'showinfo': 0, 'playlist': 'Ug6XAw6hzaw' },
 		height: Math.ceil(window.innerWidth / (16/9)),
-		videoId: 'Ug6XAw6hzaw',
+		videoId: '1zWhDg8wEJY',
         events: {
         	'onReady': onPlayerReady
         }
