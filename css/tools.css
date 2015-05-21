@@ -175,7 +175,7 @@ header p {
 
 #contribute #github-btn a {
     padding: 15px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border: none;
     font-weight: 300;
     background-color: #ecf0f1;
@@ -195,7 +195,7 @@ header p {
 #donate #donate-btn {
     background-color:#F08F90;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border: none;
     font-weight: 300;
     color: white;
