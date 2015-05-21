@@ -1,7 +1,3 @@
-#developers-header {
-    border-bottom: 2px solid rgba(0,0,0,0.2);
-}
-
 #navbar {
     background-color: #ecf0f1;
 	height: 58px;
@@ -21,7 +17,7 @@
 #navbar ul li {
     display: inline-block;
     padding: 15px;
-    margin-top: 3px;
+    padding-top: 16px;
 }
 
 #navbar ul li a {
@@ -32,14 +28,15 @@
     color: #62798d;
 }
 
-#navbar .donate {
-    color:  #62798d;
-}
-
 #navbar #toggle span {
     color:  #747c83;
     font-size: 25px;
     margin-top: 17px;
+}
+
+#navbar .tools {
+    background-color: #75C9B3;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
 #navbar #title {
@@ -65,8 +62,9 @@
 }
 
 #navbar #page-name {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color:  #ecf0f1;
+    margin-top: 2px;
     padding-left: 0px;
     text-decoration: none;
     font-weight: 400;
@@ -74,7 +72,6 @@
 }
 
 header {
-    
     text-align: center;
     padding-top: 40px;
     padding-bottom: 30px;
@@ -82,7 +79,6 @@ header {
     background-color: #ecf0f1;
     background-color: #2A303C;
     background-color: #75C9B3;
-    border-top: 2px solid rgba(0,0,0,0.2);
     border-bottom: 2px solid rgba(0,0,0,0.2);
 }
     
@@ -119,7 +115,6 @@ header p {
     transition: 0s;
     border: 0px;
     margin-top: 30px;
-    border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
 #tools .tool:hover {
@@ -156,12 +151,16 @@ header p {
 }
 
 #contribute h1 {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 	text-align: center;
 	color: #747c83;
     font-size: 1.2rem;
     font-weight: 700;
     font-family: Bitter;
+}
+
+#contribute img {
+    margin-bottom: 50px;
 }
 
 #contribute h2 {
@@ -186,8 +185,11 @@ header p {
     padding-top: 50px;
     padding-bottom: 40px;
     background-color:#ecf0f1;
-    border-top: 1px solid rgba(0,0,0,0.1);
     text-align: center;
+}
+
+#donate p {
+    line-height:3;
 }
 
 #donate #donate-btn {
