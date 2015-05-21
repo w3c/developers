@@ -93,7 +93,6 @@ a.button.light:hover {
     height: 50px;
     background-color: #333c4e;
     background-color: #ecf0f1;
-    border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 footer {
     padding-top: 50px;

@@ -1,3 +1,6 @@
+#developers-header {
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
 
 #navbar {
     background-color: #ecf0f1;
@@ -197,6 +200,5 @@ header p {
 }
 
 footer {
-    border-top: 1px solid rgba(0,0,0,0.1);
     background-color: #333c4e;
 }

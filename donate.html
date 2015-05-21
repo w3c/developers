@@ -11,21 +11,48 @@
         <link rel="stylesheet" type="text/css" href="css/donate.css">
         </head>
     <body>
-		
-    <nav id="navbar" class="col-md-12">
+
+    <div id="developers-header" class="col-md-12 col-sm-12 col-xs-12">
         <div class="container">
-            <a id="toggle" class="hidden-lg hidden-md" href="#">
+                <a id="brand" class="navbar-left" href="index.html">
+                    <img src="img/developers-min.svg" height="30">
+                </a>
+        </div>
+    </div>
+    <nav id="navbar" class="col-md-12 col-sm-12 col-xs-12">
+        <div class="container">
+            <div id="title" class="col-md-4 col-sm-10 col-xs-10">
+                <a id="page-name" class="navbar-left" href="tools.html">
+                    developer tools
+                </a>
+            </div>
+            <ul class="hidden-sm hidden-xs navbar-right">
+                <li>
+                    <a href="http://www.w3.org/blog/validator/">Blog</a>
+                </li>
+                <li>
+                    <a href="https://github.com/w3c">Github</a>
+                </li>  
+                <li  class="donate">
+                    <a href="donate.html">Donate</a>
+                </li>  
+            </ul>
+            <a id="toggle" class="hidden-lg hidden-md col-sm-2 col-xs-2 navbar-right" href="#">
                 <span class="octicon octicon-three-bars" aria-hidden="true"></span>
 				<span class="sr">Menu</span>
             </a>
-            <a id="brand" class="hidden-sm hidden-xs navbar-left" href="index.html">
-                <img src="img/developers-min.svg" height="40">
-            </a>
         </div>
     </nav>
-		
-		<h1 id="thanks">Donate to developer tools</h1>
-		<section id="donate" class="col-md-4 col-md-offset-4">
+        
+    <header class="col-md-12 col-sm-12 col-xs-12">
+        <div class="container">
+            <img src="img/donate-love.svg" width="100">
+            <p>With your help, we can build <br> great, free and open source tools for all of the Web.
+            </p>
+        </div>    
+    </header>
+        
+		<section id="donate" class="col-md-6 col-md-offset-3">
 			<div id="payment-method">
 				<ul>
 					<li>
@@ -123,73 +150,52 @@
 			</div>
 		</section>
     
-    	<footer class="col-md-12">
-        	<div id="useful-links" class="container">
+    	<footer class="col-md-12 col-sm-12 col-xs-12">
+        	<div class="container">
+                <div class="brand col-md-4">
+                    <a href="index.html">
+                        <img src="img/developers-min.svg" height="40">
+                    </a>
+                    <a href="https://www.w3.org">
+                        <img src="img/w3c_logo.svg" height="40">
+                    </a>
+                </div>
             	<div id="help" class="col-md-2">
-                	<h3>Help</h3>
+                	<h3>Connect</h3>
                 	<ul>
                     	<li>
-                        	<a href="http://stackoverflow.com/questions/tagged/w3c-developer-tools">
-								Stack Overflow
-							</a>
-                    	</li>
-                    	<li>
-                        	<a href="mailto:public-qa-dev@w3.org">Mailing Lists</a>
+                        	<a href="mailto:public-qa-dev@w3.org">Mailing List</a>
                     	</li>
                     	<li>
                         	<a href="http://irc.w3.org">irc: #dev</a>
                     	</li>
-                	</ul>
-            	</div>
-            	<div id="about" class="col-md-2">
-                	<h3>About</h3>
-                	<ul>
-                    	<li>
-                        	<a href="tools.html">Developer Tools</a>
-                    	</li>
-                    	<li>
-                        	<a href="#">Web Platform</a>
-                    	</li>
-                    	<li>
-                        	<a href="#">W3Cx</a>
-                    	</li>
-                    	<li>
-                        	<a href="#">Community</a>
-                    	</li>
-                	</ul>
-            	</div>
-            	<div id="social" class="col-md-2">
-                	<h3>Social</h3>
-                	<ul>
                     	<li>
                         	<a href="https://twitter.com/W3C_DevTools">Twitter</a>
                     	</li>
                 	</ul>
             	</div>
-            	<div id="resources" class="col-md-2">
-                	<h3>Resources</h3>
+            	<div id="about" class="col-md-2">
+                	<h3>Explore</h3>
                 	<ul>
                     	<li>
-                        	<a href="https://github.com/w3c">GitHub</a>
+                        	<a href="tools.html">Developer Tools</a>
                     	</li>
                     	<li>
-                        	<a href="https://www.npmjs.com/~w3c">npm</a>
+                        	<a href="https://www.webplatform.org/">Web Platform</a>
                     	</li>
-                	</ul>
-            	</div>
-            	<div id="support" class="col-md-2">
-                	<h3>Support us</h3>
-                	<ul>
                     	<li>
-                        	<a href="donate.html">Donate</a>
+                        	<a href="https://www.edx.org/school/w3cx">W3Cx</a>
+                    	</li>
+                    	<li>
+                        	<a href="https://github.com/w3c">Github</a>
                     	</li>
                 	</ul>
             	</div>
             	<div id="affiliates" class="col-md-2">
-                	<h3>Affiliates</h3>
+                	<h3>Resources &amp; Affiliates</h3>
                 	<ul>
                     	<li>
-                        	<a href="https://twitter.com/W3C_DevTools">W3C Website</a>
+                        	<a href="https://www.w3.org">W3C Website</a>
                     	</li>
                     	<li>
                         	<a href="http://testthewebforward.org/">Test The Web Forward</a>
@@ -205,7 +211,12 @@
         	</div>
         	<div id="copyright" class='container'>
             	<p class="copyright">
-                	<a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2015 <a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.
+                	<a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">
+                        Copyright
+                    </a> 
+                    © 2015 
+                    <a href="http://www.w3.org/">W3C</a>
+                    <sup>®</sup>
             	</p>
         	</div>
     	</footer>
