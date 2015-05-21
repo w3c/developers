@@ -1,7 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 260" xmlns:xlink="http://www.w3.org/1999/xlink">
      
+      <style>
+@font-face {
+    font-family: "Bitter";
+    src: url("http://fonts.googleapis.com/css?family=Bitter:400,700,400italic");
+}
+</style>
+    
   <title>W3C developers</title>
   <svg id="logo" width="1400" height="260">
+      
       
       <!--
         

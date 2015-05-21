@@ -8,11 +8,11 @@
         left bracket
 
         -->
-      <circle cx="35" cy="130" r="35" fill="#333c4e"/>
-      <circle cx="130" cy="35" r="35" fill="#333c4e"/>
-      <circle cx="130" cy="225" r="35" fill="#333c4e"/>
-      <line x1="35" y1="130" x2="130" y2="35" stroke-width="70" stroke="#333c4e"/>
-      <line x1="35" y1="130" x2="130" y2="225" stroke-width="70" stroke="#333c4e"/>
+      <circle cx="35" cy="130" r="35" fill="white"/>
+      <circle cx="130" cy="35" r="35" fill="white"/>
+      <circle cx="130" cy="225" r="35" fill="white"/>
+      <line x1="35" y1="130" x2="130" y2="35" stroke-width="70" stroke="white"/>
+      <line x1="35" y1="130" x2="130" y2="225" stroke-width="70" stroke="white"/>
       <line x1="35" y1="130" x2="130" y2="35" stroke-width="60" stroke="#F99D1C"/>
       <line x1="35" y1="130" x2="130" y2="225" stroke-width="60" stroke="#D02E27"/>
       <circle cx="130" cy="35" r="30" fill="#F99D1C"/>
@@ -28,7 +28,7 @@
         text
 
         -->
-      <text text-anchor="middle" x="700" y="50%" style="dominant-baseline: middle;" font-family="Bitter" font-weight="400" font-size="200" fill="#333c4e">developers</text>
+      <text text-anchor="middle" x="700" y="50%" style="dominant-baseline: middle;" font-family="Bitter" font-weight="400" font-size="200" fill="#62798d">developers</text>
       
       
       <!--
@@ -36,11 +36,11 @@
         right bracket
 
         -->
-      <circle cx="1365" cy="130" r="35" fill="#333c4e"/>
-      <circle cx="1270" cy="35" r="35" fill="#333c4e"/>
-      <circle cx="1270" cy="225" r="35" fill="#333c4e"/>
-      <line x1="1365" y1="130" x2="1270" y2="35" stroke-width="70" stroke="#333c4e"/>
-      <line x1="1365" y1="130" x2="1270" y2="225" stroke-width="70" stroke="#333c4e"/>
+      <circle cx="1365" cy="130" r="35" fill="white"/>
+      <circle cx="1270" cy="35" r="35" fill="white"/>
+      <circle cx="1270" cy="225" r="35" fill="white"/>
+      <line x1="1365" y1="130" x2="1270" y2="35" stroke-width="70" stroke="white"/>
+      <line x1="1365" y1="130" x2="1270" y2="225" stroke-width="70" stroke="white"/>
       <line x1="1365" y1="130" x2="1270" y2="35" stroke-width="60" stroke="#30B4C5"/>
       <line x1="1365" y1="130" x2="1270" y2="225" stroke-width="60" stroke="#694D9F"/>
       <circle cx="1365" cy="130" r="30" fill="#694D9F"/>

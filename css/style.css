@@ -23,9 +23,10 @@ html, body{
 }
 
 h1 {
-	font-weight: 300;
-	color: #333c4e;
-	font-size: 1.5rem;
+	color: rgba(51, 60, 78, 1);
+    font-weight: 300;
+    font-size: 1.4rem;
+    font-family: Bitter;
 }
 
 h2 {
@@ -39,7 +40,6 @@ h3 {
 	font-weight: 700;
 	font-size: 0.8rem;
 	color: #62798d;
-	text-transform: uppercase;
 }
 
 a {
@@ -69,7 +69,7 @@ a.button {
 	color: #747c83;
 	border: 1px solid rgba(0,0,0,0.2);
 	border-radius: 2px;
-	padding: 20px;
+	padding: 10px;
 }
 
 a.button.light {
@@ -87,11 +87,27 @@ a.button.light:hover {
 	border: 1px solid white;
 }
 
+
+#developers-header {
+    padding: 10px;
+    height: 50px;
+    background-color: #333c4e;
+    background-color: #ecf0f1;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
 footer {
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 1rem;
     background-color:#ecf0f1;
+}
+
+footer .brand {
+    margin-top: 20px;
+}
+
+footer .brand img {
+    margin-left: 30px;
 }
 
 footer ul {
@@ -104,11 +120,20 @@ footer li {
 }
 
 footer #copyright {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 	font-size: 0.8rem;
 }
 
 footer #copyright a {
 	font-size: 0.8rem;
+}
+
+.sr {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }

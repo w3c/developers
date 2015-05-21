@@ -1,12 +1,18 @@
+
 #navbar {
-    background-color: rgba(51, 60, 78, 1);
-	height: 60px;
-	background: url(../img/noise.png) rgba(51, 60, 78, 1);
+    background-color: #ecf0f1;
+	height: 58px;
+    background-color: #333c4e;
+}
+
+#navbar .container {
+    height: 60px;
 }
 
 #navbar ul {
     list-style-type: none;
     padding-left: 0px;
+    font-family: Bitter;
 }
 
 #navbar ul li {
@@ -15,34 +21,84 @@
     margin-top: 3px;
 }
 
+#navbar ul li a {
+    color: #ecf0f1;
+}
+
+#navbar ul li a:hover {
+    color: #62798d;
+}
+
+#navbar .donate {
+    color:  #62798d;
+}
+
 #navbar #toggle span {
-    color: white;
-    font-size: 30px;
-    margin-top: 15px;
+    color:  #747c83;
+    font-size: 25px;
+    margin-top: 17px;
+}
+
+#navbar #title {
+    padding-top: 17px;
+    padding-left: 0px;
 }
 
 #navbar #join-us {
-	padding: 15px;
-	text-transform: uppercase;
+    font-size: 0.8rem;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 9px;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: transparent;
+    background-color: #694D9F;
 }
 
 #navbar #brand {
     text-decoration: none;
-	padding-top: 10px;
 }
 
 #navbar #page-name {
-    font-size: 0.8rem;
-    color: white;
-    padding-top: 20px;
-    padding-left: 20px;
+    font-size: 1rem;
+    color:  #ecf0f1;
+    padding-left: 0px;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
+    font-family: Bitter;
 }
 
-#tools {
-    background-color: #ecf0f1;
+header {
+    
+    text-align: center;
+    padding-top: 40px;
     padding-bottom: 30px;
+    background-color: #f4f4f4;
+    background-color: #ecf0f1;
+    background-color: #2A303C;
+    background-color: #75C9B3;
+    border-top: 2px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+    
+header h1 {
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+    text-align: left;
+}
+
+header p {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#tools {    
+    background-color: #ecf0f1;
+    padding-bottom: 60px;
+    padding-top: 30px;
 }
 
 #tools .row {
@@ -57,14 +113,21 @@
     text-align: center;
     text-decoration: none;
     background-color: white;
+    transition: 0s;
+    border: 0px;
+    margin-top: 30px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+#tools .tool:hover {
+    border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
 #tools .tool h2 {
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 700;
     color: #747c83;
 	text-align: center;
-    text-transform: uppercase;
 }
 
 #tools .tool-icon span {
@@ -77,17 +140,25 @@
 	text-align: center;
 }
 
+#tools #support a {
+    text-decoration: underline;
+    color: #30B4C5;
+}
+
 #contribute {
     padding-top: 50px;
     padding-bottom: 70px;
     background-color: white;
     text-align: left;
-    border-top: 1px solid rgba(0,0,0,0.1);
 }
 
 #contribute h1 {
     margin-bottom: 70px;
 	text-align: center;
+	color: #747c83;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: Bitter;
 }
 
 #contribute h2 {
@@ -96,78 +167,36 @@
 
 #contribute #github-btn {
     margin-top: 40px;
-    text-align: center;
-	text-transform: uppercase;
+    text-align: left;
+    padding-left: 0px;
 }
 
-#community {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    border-top: 1px solid rgba(0,0,0,0.1);
-    background-color: rgba(51, 60, 78, 1);
-	text-align: center;
-}
-
-#community h1{
-	color: white;
-}
-
-#community-btn {
-    margin-top: 80px;
-    text-align: center;
-}
-
-#community-btn a {
-    padding: 20px;
-    text-transform: uppercase;
+#contribute #github-btn a {
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    font-weight: 300;
+    background-color: #ecf0f1;
 }
 
 #donate {
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     background-color:#ecf0f1;
     border-top: 1px solid rgba(0,0,0,0.1);
-}
-
-#donate h1 {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #62798d;
-    text-align: left;
-}
-
-#donate p {
-    font-size: 1rem;
-    font-weight: 400;
-    color: #62798d;
-    text-align: left;
+    text-align: center;
 }
 
 #donate #donate-btn {
-    text-align: left;
-    margin-top: 20px;
-    padding: 0px;
+    background-color:#F08F90;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    font-weight: 300;
+    color: white;
 }
 
-#donate #donate-btn a {
-    padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: transparent;
-    color: white;
-    border-radius: 2px;
-    font-size: 0.8rem;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: uppercase;
-    border: 1px solid #DC4E3E;
-    background-color: #DC4E3E;
-}
-
-#donate #donate-btn a:hover {
-    color: white;
-    border: 1px solid #D02E27;
-    background-color: #D02E27;
-    
+footer {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    background-color: #333c4e;
 }
