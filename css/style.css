@@ -110,6 +110,12 @@ footer {
     background-color:#ecf0f1;
 }
 
+footer h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
 footer .brand {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -126,6 +132,7 @@ footer ul {
 
 footer a {
     color: #ecf0f1;
+    font-size: 0.8rem;
 }
 
 footer li {
