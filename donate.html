@@ -117,27 +117,26 @@
 			<div id="form_field_credit" class="col-md-12" style="display:none;">
 				<form class="col-md-12" action="https://shopmitprd.mit.edu/web/buy" method="post">
 					<fieldset class="col-md-12">
-                    	<input type="hidden"  name="cmd" value="_donations" id="cmd_donation">
-                        <input type="hidden" name="business" value="&#x76;&#x61;&#x6C;&#x69;&#x64;&#x61;&#x74;&#x6F;&#x72;&#x2D;&#x64;&#x6f;&#x6e;&#x61;&#x74;&#x65;&#x40;w3.org">
-                        <input type="hidden" name="item_name" value="W3C Validators Supporter's donation">
-                        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHosted">
+                        <input type="hidden" name="merchant_defined_data1" value="validator"/>
+                        <input type="hidden" name="merchant_id" value="mit_w3c_csail" />
+                        <input type="hidden" name="billTo_customerID" value="validators" />
                         <input type="hidden" name="amount" value="20">
 						<ul>
 							<li class="amount">
-                        		<input name="donation_amount" value="20" onclick="this.form.amount.value=20;" id="amount-20" required="" type="radio" checked="checked">
-                            	<label for="amount-20">$20</label>
+                        		<input name="donation_amount" value="20" onclick="this.form.amount.value=20;" id="credit-amount-20" required="" type="radio" checked="checked">
+                            	<label for="credit-amount-20">$20</label>
 							</li>
 							<li class="amount">
-                        		<input name="donation_amount" value="10" onclick="this.form.amount.value=10;" id="amount-10" required="" type="radio">
-                            	<label for="amount-10">$10</label>
+                        		<input name="donation_amount" value="10" onclick="this.form.amount.value=10;" id="credit-amount-10" required="" type="radio">
+                            	<label for="credit-amount-10">$10</label>
 							</li>
 							<li class="amount">
-                        		<input name="donation_amount" value="5" onclick="this.form.amount.value=5;" id="amount-5" required="" type="radio">
-                            	<label for="amount-5">$5</label>
+                        		<input name="donation_amount" value="5" onclick="this.form.amount.value=5;" id="credit-amount-5" required="" type="radio">
+                            	<label for="credit-amount-5">$5</label>
 							</li>
 							<li class="amount">
-                        		<input name="donation_amount" value="3" onclick="this.form.amount.value=3;" id="amount-3" required="" type="radio">
-                            	<label for="amount-3">$3</label>
+                        		<input name="donation_amount" value="3" onclick="this.form.amount.value=3;" id="credit-amount-3" required="" type="radio">
+                            	<label for="credit-amount-3">$3</label>
 							</li>
 							<li class="other_amount">
                                 <input name="donation_amount" id="input_other_amount" type="radio">
