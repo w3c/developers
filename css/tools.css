@@ -70,6 +70,16 @@
     font-family: Bitter;
 }
 
+#navbar #toggle {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+}
+
+#navbar #toggle span {
+    color: white;
+}
+
 header {
     text-align: center;
     padding-top: 40px;
@@ -91,6 +101,28 @@ header p {
     color: white;
     margin-top: 20px;
     text-align: center;
+}
+
+#toggle-menu {
+    background-color: #455164;
+}
+
+#toggle-menu ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+
+}
+
+#toggle-menu ul li {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+#toggle-menu ul li a {
+    color: white;
+    font-family: Bitter;
 }
 
 #tools {    

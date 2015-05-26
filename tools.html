@@ -21,9 +21,7 @@
                 <a id="brand-name" class="navbar-left hidden-sm hidden-xs" href="index.html">
                     W3C <br> Developers
                 </a>
-        
         </div>
-        
     </div>
     <nav id="navbar" class="col-md-12 col-sm-12 col-xs-12">
         <div class="container">
@@ -46,12 +44,31 @@
                     <a href="donate">Donate</a>
                 </li>  
             </ul>
-            <a id="toggle" class="hidden-lg hidden-md col-sm-2 col-xs-2 navbar-right" href="#">
+            <button id="toggle" class="hidden-lg hidden-md col-sm-2 col-xs-2 navbar-right" href="" onclick="toggle();">
                 <span class="octicon octicon-three-bars" aria-hidden="true"></span>
 				<span class="sr">Menu</span>
-            </a>
+            </button>
         </div>
     </nav>
+        
+    <div id="toggle-menu" class="col-md-12 col-sm-12 col-xs-12">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="tools.html">Tools</a>
+                </li>   
+                <li>
+                    <a href="http://www.w3.org/blog/validator/">Blog</a>
+                </li>
+                <li>
+                    <a href="https://github.com/w3c">Github</a>
+                </li> 
+                <li>
+                    <a href="donate">Donate</a>
+                </li>  
+            </ul>
+        </div>
+    </div>
         
     <header class="col-md-12 col-sm-12 col-xs-12">
         <div class="container">
@@ -192,7 +209,7 @@
                     You will find more information to get started in each project on their own web page.
                 </p>
                 <div id="github-btn" class="col-md-12">
-                    <a class="button " href="https://github.com/w3c">Browse projects on Github</a>
+                    <a class="button" href="https://github.com/w3c">Browse projects on Github</a>
                 </div>
             </div>
         </div>
@@ -277,7 +294,7 @@
             	</p>
         	</div>
     	</footer>
-        
+		<script src="js/tools.js"></script>
     </body>
 </html>
 
