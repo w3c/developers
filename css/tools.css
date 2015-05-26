@@ -7,6 +7,10 @@
     height: 60px;
 }
 
+#navbar #toggle-menu {
+    display: none;
+}
+
 #navbar ul {
     list-style-type: none;
     padding-left: 0px;
