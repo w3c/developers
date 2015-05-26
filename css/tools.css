@@ -97,6 +97,12 @@ header p {
     background-color: #ecf0f1;
     padding-bottom: 60px;
     padding-top: 30px;
+    text-align: center;
+}
+
+#tools .source-code {
+    color: #356A84;
+    text-decoration: underline;
 }
 
 #tools .row {
