@@ -123,6 +123,10 @@ footer ul {
     padding-left: 0px;
 }
 
+footer a {
+    color: #ecf0f1;
+}
+
 footer li {
     padding-top: 10px;
 }
@@ -131,6 +135,7 @@ footer #copyright {
     margin-top: 50px;
     text-align: center;
 	font-size: 0.8rem;
+    color: #ecf0f1;
 }
 
 footer #copyright a {
