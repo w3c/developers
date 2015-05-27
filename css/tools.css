@@ -226,6 +226,10 @@ header p {
     background-color: #ecf0f1;
 }
 
+#contribute img {
+    width: 80%;
+}
+
 #donate {
     padding-top: 50px;
     padding-bottom: 40px;
