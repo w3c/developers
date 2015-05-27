@@ -98,7 +98,7 @@ a.button.light:hover {
     font-weight: 300;
     margin-top: 15px;
     font-family: Bitter;
-    padding-left: 10px;
+    padding-left: 5px;
     font-size: 1rem;
     line-height: 1;
     color: #455164;
@@ -106,7 +106,7 @@ a.button.light:hover {
 }
 
 #developers-header #brand-name img {
-    margin-top: 0px;
+    margin-left: 0px;
 }
 
 footer {
