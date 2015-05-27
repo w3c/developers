@@ -44,12 +44,31 @@
                     <a href="donate">Donate</a>
                 </li>  
             </ul>
-            <a id="toggle" class="hidden-lg hidden-md col-sm-2 col-xs-2 navbar-right" href="#">
+            <button id="toggle" class="hidden-lg hidden-md col-sm-2 col-xs-2 navbar-right" href="" onclick="toggle();">
                 <span class="octicon octicon-three-bars" aria-hidden="true"></span>
 				<span class="sr">Menu</span>
-            </a>
+            </button>
         </div>
     </nav>
+        
+    <div id="toggle-menu" class="col-md-12 col-sm-12 col-xs-12">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="tools">Tools</a>
+                </li>   
+                <li>
+                    <a href="http://www.w3.org/blog/validator/">Blog</a>
+                </li>
+                <li>
+                    <a href="https://github.com/w3c">Github</a>
+                </li> 
+                <li>
+                    <a href="donate">Donate</a>
+                </li>  
+            </ul>
+        </div>
+    </div>
         
     <header class="col-md-12 col-sm-12 col-xs-12">
         <div class="container">
@@ -59,7 +78,7 @@
         </div>    
     </header>
         
-		<section id="donate" class="col-md-6 col-md-offset-3">
+		<section id="donate" class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
 			<div id="payment-method">
 				<ul>
 					<li>
@@ -226,6 +245,7 @@
             	</p>
         	</div>
     	</footer>
+		<script src="js/toggle.js"></script>
 		<script src="js/donate.js"></script>
   </body>
 </html>

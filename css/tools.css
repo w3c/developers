@@ -31,12 +31,6 @@
     color: #62798d;
 }
 
-#navbar #toggle span {
-    color:  #747c83;
-    font-size: 25px;
-    margin-top: 17px;
-}
-
 #navbar .tools {
     background-color: #75C9B3;
     border-bottom: 2px solid rgba(0,0,0,0.2);
@@ -81,6 +75,8 @@
 }
 
 #navbar #toggle span {
+    font-size: 25px;
+    margin-top: 17px;
     color: white;
 }
 
