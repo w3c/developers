@@ -133,8 +133,9 @@ header p {
 }
 
 #tools .source-code {
-    color: #356A84;
-    text-decoration: underline;
+    color: #62798d;
+    font-weight: 300;
+    font-size: 0.8rem;
 }
 
 #tools .row {
@@ -154,8 +155,15 @@ header p {
     margin-top: 30px;
 }
 
+#tools .coming-soon {
+    background-color: #ecf0f1;
+}
+
 #tools .tool:hover {
     border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+#tools .coming-soon:hover {
+    border: none;
 }
 
 #tools .tool h2 {
@@ -166,7 +174,7 @@ header p {
 }
 
 #tools .tool-icon span {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 #tools #support {
