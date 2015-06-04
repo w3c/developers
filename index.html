@@ -5,27 +5,36 @@
     	<meta charset='utf-8'>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
     	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     	<link rel="stylesheet" href="octicons/octicons.css">
     	<link rel="stylesheet" type="text/css" href="css/style.css">
     	<link rel="stylesheet" type="text/css" href="css/home.css">
+       
   	</head>
   
 	<body>
       
-		<div id="header-video" style="position:absolute; top:0; left:0; width:100%; height:100%;">
-			<div id="player"></div>
-		</div>
+		<div id="header-video" >
+        <video autoplay muted id="bgvid" controls>
+        <source src="video/Introducing Web Platform Docs.mp4" type="video/mp4">
+        <track id ="subtrack" src="video/Introducing Web Platform Docs Subs.vtt"  srclang="en" label="English" kind="subtitles" default>
+        </video> 
+        
+         </div>
+         
 		
     	<header id="hero" class="col-md-12">
     		<nav id="navbar" class="col-md-12">
             	<a id="brand" class="hidden-sm hidden-xs navbar-left" href="index.html">
                 	<img src="img/developers-min.svg" height="40">
 				</a>
-            	<a id="toggle" class="hidden-lg hidden-md" href="#">
+            	<button id="toggle" class="hidden-lg hidden-md col-sm-2 col-xs-2 navbar-right" onclick="toggle();">
+                	
                 	<span class="octicon octicon-three-bars" aria-hidden="true">
+                    
                 	</span><span class="sr">Menu</span>
-            	</a>
+            	</button>
             	<ul class="hidden-sm hidden-xs navbar-right">
                 	<li>
                     	<a id="join-us" class="button light" href="community.html">Join the community</a>
@@ -43,18 +52,41 @@
                 	</li>
             	</ul>
     		</nav>
+               <div id="toggle-menu" class="col-md-12 col-sm-12 col-xs-12">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="tools">Developer Tools</a>
+                </li>   
+                <li>
+                    <a href="http://www.w3.org/blog/validator/">Web Platform</a>
+                </li>
+                <li>
+                    <a href="https://github.com/w3c">W3X</a>
+                </li> 
+                <li>
+                    <a href="donate">Join The Community</a>
+                </li>  
+            </ul>
+           </div>
+        </div>
+    
         	<div class="container">
             	<div id="intro" class="col-md-12">
                 	<div id="developers-logo" class="col-md-12">
-                		<img src="img/developers.svg" height="80">
                 	</div>
-					<h2>Discover Web Platform, a documented Web <strong>for everyone</strong>.</h2>
-						<button id="play-btn"><span class="octicon octicon-playback-play"></span></button>
+					<h2>Discover Web Platform, a documented Web for everyone.</h2>
+                    <div id="btnmenu">
+						<button class="btn" id="vidpause"><span class="octicon octicon-playback-pause"  ></span></button>
+                        <button  class="btn" id="mute"><span class="glyphicon glyphicon-volume-off"></span></button>
+                        <button  class="btn" id="subtitles"><span class="glyphicon glyphicon-subtitles"></span></button>
+                    </div>
 					<div class="col-md-12">
 					</div>
 				</div>
         	</div>
     	</header>
+        
     
         <section id="overview" class="col-md-12">
         	<div class="container">
@@ -200,7 +232,7 @@
                 	<h3>Social</h3>
                 	<ul>
                     	<li>
-                        	<a href="https://twitter.com/W3C_DevTools">Twitter</a>
+                        	<a href="https://twitter.com-/W3C_DevTools">Twitter</a>
                     	</li>
                 	</ul>
             	</div>
@@ -249,5 +281,7 @@
     	</footer>
 	<script src="https://www.youtube.com/iframe_api"></script>
       	<script src="js/script.js"></script>
+        <script src="js/vidcontrol.js"></script>
+        
   </body>
 </html>
