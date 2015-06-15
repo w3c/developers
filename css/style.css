@@ -52,7 +52,7 @@ a {
 
 a.light {
 	color: #62798d;
-	color: white;
+	color: black;
 }
 
 a:hover {
@@ -83,8 +83,8 @@ a.button:hover {
 }
 
 a.button.light:hover {
-	color: white;
-	border: 1px solid white;
+	color: black;
+	border: 1px solid black;
 }
 
 

@@ -3,6 +3,13 @@
 	padding-left: 100px;
 	padding-right: 100px;
 	margin-bottom: 0px;
+	background-color:white;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	font-family:bitter;
+	
 }
 
 #navbar ul {
@@ -17,9 +24,16 @@
 }
 
 #navbar #toggle span {
-    color: white;
+    color: black;
     font-size: 30px;
     margin-top: 15px;
+	
+}
+#navbar #toggle{
+	background-image: none;
+    background-color: transparent;
+    border: none;
+	
 }
 
 #navbar #join-us {
@@ -37,12 +51,32 @@
 	text-transform: uppercase;
 }
 
+video{
+	position:absolute; 
+	top:0; 
+	left:0; 
+	right:0;
+	bottom:0;
+	margin: auto;
+    min-height: 50%;
+    min-width: 50%;	
+	overflow:hidden;
+}
+#header-video{
+	position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+	overflow:hidden;	
+}
+
 #hero {
     text-align: center;
 	background: rgba(51, 60, 78, 0.7);
     padding-top: 50px;
     padding-bottom: 200px;
-	height: 80%;
+
 }
 
 #hero #developers-logo {
@@ -55,6 +89,7 @@
 	font-weight: 300;
 	color: white;
 	text-align: center;
+	font-family:bitter;
 }
 
 #hero h2 strong {
@@ -63,6 +98,7 @@
 	background-color: #694D9F;
 	padding: 5px;
 	border-radius: 2px;
+	font-family:bitter;
 }
 
 #hero #play-btn {
@@ -73,13 +109,41 @@
 	background-image: none;
 	background-color: white;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
-#hero #play-btn span {
+#hero #play-btn span  {
 	font-size: 1rem;
 }
 
+#btnmenu{
+position:relative;
+top:80px;	
+margin-left:80%;	
+}
+
+.btn {
+	color:white;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	border:none;
+	background-image: none;
+	background-color:transparent;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.btn:focus{
+color:white;
+}
+.btn:hover{
+color:white;
+}
+
+.btn span{
+	font-size: 1rem;
+}
 #overview {
     background-color: white;
     text-align: center;
@@ -212,4 +276,45 @@
     width:1px;
     height:1px;
     overflow:hidden;
+}
+
+#toggle-menu {
+    background-color:white;
+	
+}
+
+#toggle-menu ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+
+}
+
+#toggle-menu ul li {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  rgba(51, 60, 78, 0.2);
+	border-width:100%;
+	text-align:left;
+}
+
+#toggle-menu ul li a {
+    color: black;
+    font-family: Bitter;
+}
+
+#captionBar{
+	width: 480px;
+	 position: absolute; 
+	 top: 280px;
+	 padding: 3px 10px;
+	  text-align:  center; 
+	  color:#fff;
+	  background-color:#000;
+	   font-family:  Helvetica,Arial,sans-serif; 
+	   font-size: 0.9em; 
+	   font-weight: bold;
+	   min-height:3.6em;
+	   
+	   
 }
