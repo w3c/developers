@@ -1,22 +1,3 @@
-
-var player;
-
-function onYouTubeIframeAPIReady() {
-	player = new YT.Player('player', {
-		width: window.innerWidth,
-    	playerVars: { 'autoplay': 1, 'controls': 0, 'loop': 1, 'modestbranding': 1, 'showinfo': 0, 'playlist': 'Ug6XAw6hzaw' },
-		height: Math.ceil(window.innerWidth / (16/9)),
-		videoId: '1zWhDg8wEJY',
-        events: {
-        	'onReady': onPlayerReady
-        }
-	})
+function updateSearchOnGithub() {
+	document.getElementById('github-search-btn').href = 'https://github.com/w3c?utf8=%E2%9C%93&query=' + document.getElementById('github-search-input').value;
 }
-
-function onPlayerReady(event) {
-    player.mute();
-	player.setLoop(true);
-}
-
-
-

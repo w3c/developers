@@ -1,141 +1,186 @@
-#navbar {
-	height: 58px;
+html, body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    height: 100%;
+    font-family: Open Sans, Sans Serif;
+    font-weight: 300;
+    font-size: 18px;
+	color: #455164;
+    background-color: #ecf0f1;
+}
+
+.navbar-default {
+	height: 100px;
+    border: 0px;
+    border-radius: 0px;
+    margin: 0px;
+    margin-bottom: 50px;
+    background-color: transparent;
+}
+
+.navbar .container {
+}
+
+.navbar #toggle {
     background-color: #455164;
+    border-top: none;
+
+}
+.navbar .navbar-brand {
+    font-family: Bitter;
+    font-size:1.4rem;
+    color: white;
+    height: 70px;
+    padding-top:5px;
+    padding-bottom: 0px;
 }
 
-#navbar .container {
-    height: 60px;
+.navbar #brand-name {
+    padding-top: 40px;
 }
 
-#navbar #toggle-menu {
-    display: none;
+.navbar .navbar-header button {
+    padding: 0px;
+    margin-top: 15px;
+    margin-right: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 0px;
 }
 
-#navbar ul {
+.navbar .navbar-header button:hover {
+    background: none;
+}
+
+.navbar .navbar-header button:focus {
+    background: none;
+}
+
+.navbar .navbar-nav {
     list-style-type: none;
     padding-left: 0px;
-    font-family: Bitter;
+    font-family: Lato;
 }
 
-#navbar ul li {
+.navbar .navbar-nav li {
     display: inline-block;
-    padding: 15px;
-    padding-top: 16px;
+    padding-top: 15px;
 }
 
-#navbar ul li a {
-    color: #ecf0f1;
-}
-
-#navbar ul li a:hover {
-    color: #62798d;
-}
-
-#navbar .tools {
-    background-color: #75C9B3;
-    border-bottom: 2px solid rgba(0,0,0,0.2);
-}
-
-#navbar #title {
-    padding-top: 17px;
-    padding-left: 0px;
-}
-
-#navbar #join-us {
-    font-size: 0.8rem;
+.navbar-default .navbar-nav>li>a {
     color: white;
-    padding-left: 20px;
-    text-decoration: none;
-    font-weight: 400;
-    margin-top: 9px;
-    padding: 10px;
+    font-size: 1rem;
     border-radius: 2px;
-    background-color: transparent;
-    background-color: #694D9F;
+    font-weight: normal;
+    padding: 15px;
+    transition: 0.2s;
 }
 
-#navbar #brand {
-    text-decoration: none;
-}
-
-#navbar #page-name {
-    font-size: 0.9rem;
-    color:  #ecf0f1;
-    margin-top: 2px;
-    padding-left: 0px;
-    text-decoration: none;
-    font-weight: 400;
-    font-family: Bitter;
-}
-
-#navbar #toggle {
-    background-image: none;
-    background-color: transparent;
-    border: none;
-}
-
-#navbar #toggle span {
-    font-size: 25px;
-    margin-top: 17px;
+.navbar-default .navbar-nav>li>a:hover {
     color: white;
+    border-radius: 2px;
+    background-color: #1073B3;
 }
 
 header {
+	width: 100%;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    background-color: #f4f4f4;
-    background-color: #ecf0f1;
-    background-color: #2A303C;
-    background-color: #75C9B3;
-    border-bottom: 2px solid rgba(0,0,0,0.2);
+    padding-top: 10px;
+    padding-bottom: 200px;
+	background-color: white;
+	background-image: url(../img/devtools_header.svg);
+	background-image: url(../img/background.svg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	 background-size: cover;
 }
-    
+
+header .container {
+
+
+}
+
+#hero #github-search {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#hero #github-search input {
+        height: 55px;
+        width: 80%;
+        background-color: rgba(255,255,255,0.3);
+        border-radius: 2px;
+        border:none;
+}
+
+#hero #github-search .btn {
+        height: 55px;
+        width: 20%;
+        background-color: white;
+}
+
+header #illustration{
+    height: 400px;
+    text-align: center;
+}
+
+header #illustration img{
+    margin-top: 100px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
 header h1 {
-    color: rgba(255,255,255,1);
-    font-weight: 700;
-    text-align: left;
+    color: #F0EBDD;
+	color: white;
+    text-align: center;
+    font-family: Arvo;
+	font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 header p {
-    color: white;
-    margin-top: 20px;
+    color: #F0EBDD;
+	color: white;
     text-align: center;
+    font-family: Lato;
+	font-weight: 700;
+    font-size: 1.5rem;
 }
 
-#toggle-menu {
-    background-color: #455164;
-}
-
-#toggle-menu ul {
-    padding-left: 0px;
-    margin-bottom: 0px;
-
-}
-
-#toggle-menu ul li {
-    list-style-type: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top: 1px solid rgba(255,255,255,0.2);
-}
-
-#toggle-menu ul li a {
-    color: white;
-    font-family: Bitter;
-}
-
-#tools {    
-    background-color: #ecf0f1;
+#tools {
+    background-color: white;
     padding-bottom: 60px;
-    padding-top: 30px;
+    padding-top: 0px;
     text-align: center;
+}
+
+#tools .use-online {
+    background-color: #1073B3;
+    padding: 15px;
+    font-size: 1rem;
+    font-family: Lato;
+    color: white;
+    font-weight: normal;
+    border-radius: 2px;
+    transition: 0.2s;
+
 }
 
 #tools .source-code {
-    color: #62798d;
-    font-weight: 300;
-    font-size: 0.8rem;
+background-color: #ecf0f1;
+    padding: 15px;
+    font-size: 1rem;
+    font-family: Lato;
+    color: #455164;
+    font-weight: normal;
+    border-radius: 2px;
+    transition: 0.2s;
+
 }
 
 #tools .row {
@@ -144,7 +189,7 @@ header p {
 
 #tools .tool {
     width: 100%;
-    height: 200px;
+    height: 250px;
     padding: 20px;
     padding-top: 40px;
     text-align: center;
@@ -159,22 +204,53 @@ header p {
     background-color: #ecf0f1;
 }
 
-#tools .tool:hover {
-    border-bottom: 2px solid rgba(0,0,0,0.2);
+#tools .tool:hover h2 {
+    --color: rgba(53, 106, 132,0.5);
 }
+
+#tools .tool:hover p {
+    --color: rgba(53, 106, 132,0.5);
+}
+
 #tools .coming-soon:hover {
     border: none;
 }
 
 #tools .tool h2 {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: #747c83;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1073B3;
+    font-family: Arvo;
 	text-align: center;
+    transition: 0.2s;
 }
 
+#tools .tool p {
+    font-size:1rem;
+    font-weight: 700;
+    color: #455164;
+    font-family: Arvo;
+    font-weight: normal;
+	text-align: center;
+    transition: 0.2s;
+
+
+}
+
+#tools .tool-icon {
+    background-color:#ecf0f1;
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+    margin: auto;
+    border-radius: 100%;
+    --box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+
+}
 #tools .tool-icon span {
     font-size: 2.2rem;
+    color: #455164;
+    transition: 0.2s;
 }
 
 #tools #support {
@@ -191,25 +267,37 @@ header p {
 #contribute {
     padding-top: 50px;
     padding-bottom: 70px;
-    background-color: white;
+        background-color:  white;
+            background-color: white;
     text-align: left;
 }
 
 #contribute h1 {
     margin-bottom: 50px;
-	text-align: center;
-	color: #747c83;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    font-family: Bitter;
-}
-
-#contribute img {
-    margin-bottom: 50px;
+    font-family: Lato;
+    text-align: left;
+    color: #1073B3;
 }
 
 #contribute h2 {
-    margin-top: 40px;  
+    margin-top: 40px;
+
+}
+
+#contribute p {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Arvo;
+    text-align: left;
+    color:#455164;
+
+}
+#contribute #octocat {
+        text-align: center;
+        padding-top: 50px;
+
 }
 
 #contribute #github-btn {
@@ -218,38 +306,158 @@ header p {
     padding-left: 0px;
 }
 
-#contribute #github-btn a {
-    padding: 15px;
-    font-size: 0.8rem;
-    border: none;
-    font-weight: 300;
-    background-color: #ecf0f1;
+#contribute .search-on-github input {
+    height: 53px;
+    width: 300px;
+    border-radius: 2px;
+    border: 0px;
+    outline-width: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    padding-left: 10px;
+    font-family: Lato;
+    text-align: left;
+    margin-bottom: 20px;
+        background-color: #ecf0f1;
 }
 
 #contribute img {
-    width: 80%;
+    margin-top: 20px;
+}
+
+#contribute .search-on-github input:focus {
+    border: 2px solid #1073B3;
+}
+
+#contribute .search-on-github {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#contribute .pr-icon {
+        font-size: 2rem;
+        color: rgba(0, 0, 0, 0.2);
+}
+
+#contribute .search-on-github a {
+    color: white;
+    background-color: #1073B3;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Lato;
+    border-radius: 2px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#help {
+    background-color: #ecf0f1;
+    padding-top: 50px;
+        padding-bottom: 70px;
+
+}
+#help h1 {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Lato;
+    text-align: left;
+    color: #1073B3;
+}
+
+#help p {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Arvo;
+    text-align: left;
+    color:#455164;
+
+}
+
+#help .stackoverflow {
+        text-align: center;
+}
+
+#help .stackoverflow img {
+    margin-top: 20px;
+}
+
+#help .tag {
+    font-family: Lato;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background-color: #1073B3;
+    color: white;
+    padding: 5px;
+
 }
 
 #donate {
+    padding-bottom: 70px;
     padding-top: 50px;
-    padding-bottom: 40px;
     background-color:#ecf0f1;
     text-align: center;
 }
 
+
+#donate h1 {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Lato;
+    text-align: left;
+    color:#C93756;
+}
 #donate p {
-    line-height:3;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Arvo;
+    text-align: left;
+    color:#455164;
+
 }
 
+#donate img {
+    margin-top: 20px;
+
+}
 #donate #donate-btn {
-    background-color:#F08F90;
-    padding: 10px;
-    font-size: 0.8rem;
+    background-color:#C93756;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:1rem;
     border: none;
-    font-weight: 300;
+    font-weight: 400;
     color: white;
+    font-family: Lato;
+    margin-top: 20px;
 }
 
 footer {
     background-color: #455164;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer img {
+    margin-bottom: 30px;
+
+}
+
+footer #copyright {
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    font-family: Lato;
+}
+
+footer #copyright a {
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    font-family: Lato;
 }

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+  <title>toggle</title>
+  <svg id="logo" width="400" height="600">
+      
+      <!--
+        
+        left bracket
+
+        -->
+      <circle cx="200" cy="150" r="50" fill="#ecf0f1"/>
+      <circle cx="200" cy="300" r="50" fill="#ecf0f1"/>
+      <circle cx="200" cy="450" r="50" fill="#ecf0f1"/>
+      
+  </svg>
+</svg>

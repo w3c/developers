@@ -6,20 +6,13 @@ html, body{
     font-family: Open Sans, Sans Serif;
     font-weight: 300;
     font-size: 18px;
-	color: #747c83;
+	color: #455164;
     background-color: #ecf0f1;
 }
 
-.align-right {
-    text-align: right;
-}
-
-.align-left {
- text-align: left;   
-}
-
-.align-center {
-    text-align: center;
+@font-face {
+    font-family: Bitter-Bold;
+    src: url(../fonts/Bitter-Bold.ttf) format("truetype");
 }
 
 h1 {
@@ -92,6 +85,20 @@ a.button.light:hover {
     height: 70px;
     background-color: #333c4e;
     background-color: #ecf0f1;
+    background-color: #455164;
+    padding-top: 5px;
+}
+
+#developers-header #brand a {
+    font-family: Bitter;
+    font-size:1.4rem;
+    text-decoration: none;
+    color:white;
+}
+
+#developers-header #brand a strong {
+    font-weight: 300;
+    color: #747c83;
 }
 
 #developers-header #brand-name {
@@ -99,7 +106,7 @@ a.button.light:hover {
     margin-top: 15px;
     font-family: Bitter;
     padding-left: 5px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1;
     color: #455164;
     vertical-align: middle;
