@@ -1,0 +1,147 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    height: 100%;
+    font-family: Lato;
+    font-size: 16px;
+    background-color:  white;
+    --background-color: #333c4e;
+
+}
+
+#hero {
+    padding-top: 0px;
+    padding-bottom: 4px;
+    background-color:  #455164;
+    background-color: #ecf0f1;
+    background-color:  #455164;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    background-color: #333c4e;
+    background-color:  #455164;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#hero .navbar {
+    height: 60px;
+    padding-top: 0px;
+    background-color: transparent;
+    background-color: #333c4e;
+    background-color:  #455164;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px dashed white;
+    margin: 0px;
+}
+
+#hero .navbar .container-fluid {
+    height: 50px;
+}
+
+#hero a {
+    text-align: center;
+}
+
+#hero img#w3c {
+    margin-top: 3px;
+}
+
+#hero img#developers {
+    margin: auto;
+    margin-top: -10px;
+}
+
+.w3c {
+    height: 100px;
+    width: 70px;
+    background-color: white;
+    margin-top: -20px;
+}
+#hero p {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 400;
+    font-family: Roboto Slab;
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    padding-left:10px;
+    padding-right: 10px;
+}
+main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.round-icon {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.round-icon span {
+    margin-top: 20px;
+    font-size: 5rem;
+}
+
+main {
+}
+#learning .round-icon {
+    background-color: #4bb4fb;
+}
+
+#community {
+
+    height: 1200px;
+}
+#learning .round-icon span {
+    color: #B52A67;
+}
+
+#learning h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#learning p {
+    font-size: 1rem;
+}
+
+footer {
+    height: 300px;
+    padding-top: 4px;
+    background-color:  #434a50;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+footer .container {
+}
+
+footer h2 {
+    font-size: 1rem;
+    color: #455164;
+    font-weight: bold;
+
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+}
+footer a {
+    font-size: 0.8rem;
+    color: #666;
+}
+.dashed-border-top {
+    border-bottom: 1px dashed #455164;
+
+}
