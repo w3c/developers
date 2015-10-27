@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#5F9C74;}
+	.st1{display:none;fill:#EEEEEE;}
+	.st2{display:none;fill:none;stroke:#EEEEEE;stroke-width:5.3741;stroke-miterlimit:10;}
+	.st3{fill:#C2D2BD;stroke:#858585;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<circle id="XMLID_5_" class="st0" cx="200" cy="200" r="200"/>
+<circle id="XMLID_9_" class="st1" cx="200" cy="200" r="25"/>
+<ellipse id="XMLID_8_" transform="matrix(0.866 -0.5 0.5 0.866 -73.2051 126.7949)" class="st2" cx="200" cy="200" rx="150" ry="50"/>
+<ellipse id="XMLID_7_" class="st2" cx="200" cy="200" rx="50" ry="150"/>
+<ellipse id="XMLID_6_" transform="matrix(-0.866 -0.5 0.5 -0.866 273.2051 473.2051)" class="st2" cx="200" cy="200" rx="150" ry="50"/>
+<path id="XMLID_12_" class="st3" d="M200,100.5c-41.4,0-75,33.3-75,74.5s75,125.5,75,125.5s75-84.4,75-125.5S241.4,100.5,200,100.5z
+	 M200,205c-16.6,0-30-13.4-30-30s13.4-30,30-30s30,13.4,30,30S216.6,205,200,205z"/>
+</svg>

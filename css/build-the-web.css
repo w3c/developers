@@ -1,0 +1,171 @@
+header {
+    background: linear-gradient(to right, #FF4081, #F50057,#C51162);
+}
+
+header nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header #hero {
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+header #hero h1.motto {
+    font-size: 2rem;
+    font-family: Roboto;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+    letter-spacing: .02rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 50px;
+}
+
+header #hero .explore {
+    padding: 20px 30px 20px 30px;
+    background-color: #FF4081;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+.introduction {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color: white;
+}
+
+#introduction h2 {
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    line-height: 1.5rem;
+}
+
+#introduction h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: Roboto;
+    color: rgba(0,0,0,0.87);
+}
+
+.twitter-share {
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.twitter-share img {
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.introduction .twitter-share a {
+    padding: 20px 30px 20px 30px;
+    color: white;
+    background-color:  #FF4081;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.twitter-hashtag-button {
+    display: none;
+}
+
+.introduction .twitter-hashtag-button {
+    margin-top: 50px;
+}
+
+.how-it-works {
+    padding: 50px 0px 50px 0px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    background-color: #455164;
+    background-color: #e9f0f5;
+}
+
+.how-it-works h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    color: rgba(0,0,0,0.87);
+}
+
+.how-it-works p {
+    padding-top: 15px;
+    color:  #666;
+    line-height: 1.5rem;
+    font-family: Roboto slab;
+    font-weight: 300;
+}
+
+main .get-started {
+background-color: #e9f0f5;
+    text-align: left;
+    padding: 50px 0px 50px 0px;
+    background-color:white;
+    --background-color: #e9f0f5;
+}
+
+main .get-started h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    color: rgba(0,0,0,0.87);
+    text-align: center;
+}
+
+main .get-started img {
+}
+
+main .get-started .feature {
+    padding: 15px;
+    --background-color: #e9f0f5;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+main .get-started .feature span {
+        color: #FF4081;
+    font-weight: 2rem;
+}
+
+main .get-started .step  {
+    margin-top: 50px;
+}
+
+main .get-started .help {
+    color: #88609D;
+}
+
+.get-started h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Roboto;
+        line-height: 1.5;
+        color: rgba(0,0,0,0.87);
+}
+
+.get-started .btn {
+    padding: 20px 30px 20px 30px;
+    background-color: #FF4081;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
