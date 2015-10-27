@@ -1,0 +1,238 @@
+body {
+
+    background-color: #333c4e;
+    background-color: #5C6BC0;
+}
+
+header {
+    background-image: url(../img/bg-pattern-landing.svg);
+    background-repeat: repeat;
+    background-size: 150px 150px;
+    background: linear-gradient(to right, #536DFE, #3D5AFE, #304FFE);
+
+}
+
+header nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header #hero {
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+header #hero h1.motto {
+    font-size: 2rem;
+    font-family: Roboto;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+    letter-spacing: .02rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 50px;
+}
+
+header #hero .explore {
+    padding: 20px 30px 20px 30px;
+    background-color: #536DFE;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#get-started {
+    background-color: #F5F5F5;
+    padding: 30px 0px 50px 0px;
+}
+
+#get-started .card {
+    background-color: white;
+    border-radius: 5px;
+    height: 400px;
+    max-width: 280px;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 0.8s cubic-bezier(.42,.07,.05,.98);
+    --box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    --box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#get-started .card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#get-started .card-header {
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: white;
+}
+
+#get-started #learning-card .card-header {
+    background-color: #FF6E40;
+    background: linear-gradient(to right, #FF6E40, #FF3D00);
+}
+
+#get-started #devtools-card .card-header {
+    background-color: #448AFF;
+    background: linear-gradient(to right, #448AFF, #2979FF);
+}
+
+#get-started #getinvolved-card .card-header {
+    background-color: #FF4081;
+    background: linear-gradient(to right, #FF4081, #F50057);
+}
+
+#get-started #testthewebforward-card .card-header {
+    background-color: #E040FB;
+    background: linear-gradient(to right, #E040FB, #D500F9);
+}
+
+#get-started .card-header h2 {
+    color: white;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: .02em;
+}
+
+#get-started .card-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#get-started .card-content p {
+    font-size: 1rem;
+    color: rgba(0,0,0,0.54);
+    line-height: 1.7rem;
+}
+
+#get-started .card-content ul {
+    padding: 0px;
+}
+
+#get-started .card-content ul li {
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+#get-started .card-content ul li a {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: .02em;
+    font-family: Roboto;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+#get-started .card-content ul li a:hover {
+    color: #536DFE;
+}
+
+#breaking-news {
+    padding: 50px 0px 50px 0px;
+    background-color: #ECEFF1;
+    background: linear-gradient(to right, #448AFF , #2979FF, #2962FF);
+}
+
+#breaking-news img {
+    margin: auto;
+    margin-top: 20px;
+}
+
+#breaking-news h2 {
+    font-size: 1.8rem;
+    letter-spacing: .02em;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-family: Roboto;
+    color: white;
+}
+
+#breaking-news p {
+    color: rgba(255,255,255,0.7);
+    line-height: 1.7rem;
+}
+
+#breaking-news p.call-to-action a {
+    font-size: 1.1rem;
+    letter-spacing: .02em;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: Roboto;
+    color: white;
+}
+
+#friends {
+    padding: 50px 0px 50px 0px;
+    background-color: #F5F5F5;
+    background: linear-gradient(to right, #7C4DFF , #651FFF, #6200EA);
+}
+
+#friends p {
+    color: rgba(0,0,0,0.87);
+    line-height: 1.7rem;
+    color: rgba(255,255,255,0.7);
+}
+
+#friends h2 {
+    font-size: 1.8rem;
+    letter-spacing: .02em;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-family: Roboto;
+    color: rgba(0,0,0,0.87);
+    color: rgba(255,255,255, 1);
+}
+
+#friends p a {
+    color: white;
+}
+
+#friends p.call-to-action {
+    margin-top: 30px;
+}
+
+#friends p.call-to-action a {
+    padding: 20px 30px 20px 30px;
+    background-color: #6200EA;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+
+    header #hero p.motto {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    #breaking-news {
+        text-align: center;
+    }
+
+    #breaking-news h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    #friends {
+        text-align: center;
+    }
+
+    #friends h2 {
+        font-size: 1.5rem;
+    }
+}

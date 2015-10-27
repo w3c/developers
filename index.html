@@ -1,250 +1,220 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 	<head>
     	<title>W3C Developers</title>
     	<meta charset='utf-8'>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    	<link rel="stylesheet" href="octicons/octicons.css">
-    	<link rel="stylesheet" type="text/css" href="css/style.css">
-    	<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link href='//fonts.googleapis.com/css?family=Roboto:400,300,100,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    	<link rel="stylesheet" type="text/css" href="css/template.css">
+    	<link rel="stylesheet" type="text/css" href="css/landing.css">
   	</head>
 
 	<body>
 
-		<div id="header-video" style="position:absolute; top:0; left:0; width:100%; height:100%;">
-			<div id="player"></div>
-		</div>
+		<header>
+			<nav>
+				<div class="container">
+					<img src="img/W3C-Developers-Light.svg" height="60" alt="">
 
-    	<header id="hero" class="col-md-12">
-    		<nav id="navbar" class="col-md-12">
-            	<a id="brand" class="hidden-sm hidden-xs navbar-left" href="index.html">
-                	<img src="img/developers-min.svg" height="40">
-				</a>
-            	<a id="toggle" class="hidden-lg hidden-md" href="#">
-                	<span class="octicon octicon-three-bars" aria-hidden="true">
-                	</span><span class="sr">Menu</span>
-            	</a>
-            	<ul class="hidden-sm hidden-xs navbar-right">
-                	<li>
-                    	<a id="join-us" class="button light" href="community.html">Join the community</a>
-                	</li>
-            	</ul>
-            	<ul class="hidden-sm hidden-xs navbar-right">
-                	<li>
-                    	<a href="tools.html" class="light">Developer Tools</a>
-                	</li>
-                	<li>
-                    	<a href="https://www.webplatform.org/" class="light">Web Platform</a>
-                	</li>
-                	<li>
-                    	<a href="https://www.edx.org/school/w3cx" class="light">w3cx</a>
-                	</li>
-            	</ul>
-    		</nav>
-        	<div class="container">
-            	<div id="intro" class="col-md-12">
-                	<div id="developers-logo" class="col-md-12">
-                		<img src="img/developers.svg" height="80">
-                	</div>
-					<h2>Discover Web Platform, a documented Web <strong>for everyone</strong>.</h2>
-						<button id="play-btn"><span class="octicon octicon-playback-play"></span></button>
-					<div class="col-md-12">
+				</div>
+			</nav>
+			<div id="hero">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="motto">
+								The one-stop place to find the information and tools you need <br> to help you learn, build, and move the web forward.
+							</h1>
+							<p>
+								<a class="explore" data-scroll href="#get-started">explore</a>
+							</p>
+						</div>
 					</div>
 				</div>
-        	</div>
-    	</header>
+			</div>
+		</header>
 
-        <section id="overview" class="col-md-12">
-        	<div class="container">
-            	<div class="row">
-                	<a href="#tools" class="col-md-4">
-                    	<div class="icon-overview">
-                        	<span class="octicon octicon-rocket"></span>
-                    	</div>
-                    	<p>Explore great tools</p>
-                	</a>
-                	<a href="#documented-web" class="col-md-4">
-                    	<div class="icon-overview">
-                        	<img height="30" src="img/webplatform.svg">
-                    	</div>
-                    	<p>A documented web for everyone</p>
-                	</a>
-                	<a href="#learning" class="col-md-4">
-                    	<div class="icon-overview">
-                        	<span class="octicon octicon-mortar-board"></span>
-                    	</div>
-                    	<p>Learn from W3C experts</p>
-					</a>
-                </div>
-            </div>
-        </section>
+		<main id="get-started">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-3 col-sm-4">
+							<div id="learning-card" class="card">
+								<div class="card-header">
+									<h2>Learn</h2>
+								</div>
+								<div class="card-content">
+									<p>
+										 In the comfort of your browser, learn Web technologies such as HTML, CSS from the people who create them.
+									</p>
+									<ul>
+										<li><a href="http://www.w3devcampus.com/">W3DevCampus</a></li>
+										<li><a href="https://www.edx.org/school/w3cx">W3Cx courses</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div id="devtools-card" class="card">
+								<div class="card-header">
+									<h2>Tools</h2>
+								</div>
+								<div class="card-content">
+									<p>
+										Lead your code to its full potential with great and open source tools.
+									</p>
+									<ul>
+										<li><a href="tools">Browse the tools</a></li>
+										<li><a href="tools#help">Get help</a></li>
+										<li><a href="tools#contribute">Contribute</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div id="getinvolved-card" class="card">
+								<div class="card-header">
+									<h2>Get Involved</h2>
+								</div>
+								<div class="card-content">
+									<p>
+										Get involved in the creation of Web standards.
+										Yes, that's where cool people hang out.
+									</p>
+									<ul>
+										<li><a href="get-involved">Get started</a></li>
+										<li><a href="http://discourse.wicg.io/">Discuss</a></li>
+										<li><a href="https://www.w3.org/community/">Community groups</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div id="testthewebforward-card" class="card">
+								<div class="card-header">
+									<h2>Test the Web Forward</h2>
+								</div>
+								<div class="card-content">
+									<p>
+										W3C's one stop shop for Open Web Platform testing.
+									</p>
+									<ul>
+										<li><a href="http://testthewebforward.org/">Get started</a></li>
+										<li><a href="http://testthewebforward.org/docs/">Documentation</a></li>
+										<li><a href="https://github.com/w3c/web-platform-tests">Contribute</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 
-      	<section id="tools" class="col-md-12">
-       		<div class="container">
-            	<h1>Explore great tools.</h1>
-                    <span class="octicon octicon-rocket"></span>
-                	<div id="tools-features" class="col-md-12">
-                    	<div class="tools-feature col-md-4">
-                    		<h2>Specific tools <br> for specific needs</h2>
-                    		<p>
-                        		Developer Tools regroup all tools you need to improve the quality of your code and help you in your web developements.
-                    		</p>
-                    	</div>
-                    	<div class="tools-feature col-md-4">
-                    		<h2>Free <br> &amp; Open Source </h2>
-                    		<p>
-                        		All listed tools are Open Source. This means that you can download and use them for free, if you like.
-                    		</p>
-                    	</div>
-                    	<div class="tools-feature col-md-4">
-                    		<h2>Be proud <br> of coding Standards </h2>
-                    		<p>
-                        		Your code is certified "standard" by the validators? Promote it with awesome icons on your website.
-                    		</p>
-                    	</div>
-                	</div>
-            		<div id="tools-btn" class="col-md-12">
-                		<a class="button" href="tools.html">Explore developer tools</a>
-            		</div>
-            	</div>
-        	</div>
-    	</section>
+		<section id="breaking-news">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-md-offset-1">
+						<img src="img/html5.svg" height="200" alt="">
+					</div>
+					<div class="col-md-7">
+						<h2>New courses on W3Cx</h2>
+						<p>
+							Learn HTML5 and core Web technologies directly from the organization creating them! Learn to code Web pages and Web sites the right way.
+						</p>
+						<p class="call-to-action">
+							<a href="https://www.edx.org/course/html5-part-2-advanced-techniques-w3cx-html5-2x">Get the last course</a> or <a href="https://www.edx.org/school/w3cx">learn more about W3Cx</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    	<section id="documented-web" class="col-md-12">
-        	<div class="container">
-                <div class="col-md-6">
-            	<h1>A Documented Web for everyone.</h1>
-                    <div class="col-md-10 align-left">
-                    	<p>
-                        	The latest information on how to use the technology that runs the web.
-                    	</p>
-                    </div>
-                    <div class="col-md-10 align-left">
-                    	<h2>Discuss Web Standards.</h2>
-                    	<p>
-                        	Web Platform is not run by a single corporation, or a single person. It’s by and for us all.
-                    	</p>
-                    </div>
-                    <div class="col-md-10 align-left">
-                    	<h2>Specifications.</h2>
-                    	<p>
-                        	Web Platform is not run by a single corporation, or a single person. It’s by and for us all.
-                    	</p>
-                    </div>
-            	<div id="webplatform-btn" class="col-md-12">
-                	<a class="button" href="https://www.webplatform.org/">Get Started on WebPlatform.org</a>
-            	</div>
-                </div>
-                <div class="col-md-6">
-                    <img height="700" style="position:absolute; margin-left:100px; margin-top:150px;" src="img/discuss-screenshot.png">
-                    <img height="700"  src="img/webplatform-docs.png">
-                </div>
-        	</div>
-    	</section>
+		<section id="friends">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-md-offset-1">
+						<img src="img/coffee.svg" height="200" alt="" />
+					</div>
+					<div class="col-md-7">
+						<h2>Introducing W3C Friends</h2>
+							<p>
+								We are making it easy for you to join as Friends, take advantage of our offerings, and donate to support us in conducting the activities that fulfill the W3C's <a href="http://www.w3.org/Consortium/mission.html">mission</a>.
+							</p>
+							<p class="call-to-action">
+								<a href="http://w3.org/support">donate</a>
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    	<section id="learning" class="col-md-12">
-        	<div class="container">
-            	<h1>Learn from w3c experts.</h1>
-            	<div class="col-md-8 col-md-offset-2">
-            	</div>
-        	</div>
-    	</section>
+		<footer>
 
-    	<section id="community" class="col-md-12">
-        	<div class="container">
-            	<h1>Let's build an amazing World Wide Web Community. Together.</h1>
-            	<div id="community-btn" class="row">
-                	<a class="button light" href="community.html">Join the Community</a>
-            	</div>
-        	</div>
-    	</section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="img/w3c.svg"  height="50" alt="">
+						</div>
+						<div class="col-xs-3">
+							<h4>Explore</h4>
+							<ul>
+								<li>
+									<a href="http://www.w3devcampus.com/">W3DevCampus</a>
+								</li>
+								<li>
+									<a href="https://www.edx.org/school/w3cx">W3Cx</a>
+								</li>
+								<li>
+									<a href="tools/">Developers Tools</a>
+								</li>
+								<li>
+									<a href="build-the-web/">Get Involved</a>
+								</li>
+								<li>
+									<a href="http://testthewebforward.org/">Test the Web Forward</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-3">
+							<h4>Connect</h4>
+							<ul>
+								<li>
+									<a href="https://twitter.com/w3cdevs">Twitter</a>
+								</li>
+								<li>
+									<a href="https://github.com/w3c">Github</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4>More</h4>
+							<ul>
+								<li>
+									<a href="http://w3.org/support">Donate</a>
+								</li>
+								<li>
+									<a href="https://w3.org">W3C Website</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p class="copyright">
+								Copyright © 2015 <a href="https://w3.org">W3C ®</a> (<a href="http://www.csail.mit.edu/">MIT</a>, <a href="http://www.ercim.eu/">ERCIM</a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="#">Beihang</a>) <br> <a href="http://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231">Usage policies apply</a>.
+							</p>
+						</div>
+					</div>
+				</div>
+		</footer>
 
-    	<footer class="col-md-12">
-        	<div id="useful-links" class="container">
-            	<div id="help" class="col-md-2">
-                	<h3>Help</h3>
-                	<ul>
-                    	<li>
-                        	<a href="http://stackoverflow.com/questions/tagged/w3c-developer-tools">
-								Stack Overflow
-							</a>
-                    	</li>
-                    	<li>
-                        	<a href="mailto:public-qa-dev@w3.org">Mailing Lists</a>
-                    	</li>
-                    	<li>
-                        	<a href="http://irc.w3.org">irc: #dev</a>
-                    	</li>
-                	</ul>
-            	</div>
-            	<div id="about" class="col-md-2">
-                	<h3>About</h3>
-                	<ul>
-                    	<li>
-                        	<a href="tools.html">Developer Tools</a>
-                    	</li>
-                    	<li>
-                        	<a href="#">Web Platform</a>
-                    	</li>
-                    	<li>
-                        	<a href="#">W3Cx</a>
-                    	</li>
-                    	<li>
-                        	<a href="#">Community</a>
-                    	</li>
-                	</ul>
-            	</div>
-            	<div id="social" class="col-md-2">
-                	<h3>Social</h3>
-                	<ul>
-                    	<li>
-                        	<a href="https://twitter.com/W3C_DevTools">Twitter</a>
-                    	</li>
-                	</ul>
-            	</div>
-            	<div id="resources" class="col-md-2">
-                	<h3>Resources</h3>
-                	<ul>
-                    	<li>
-                        	<a href="https://github.com/w3c">GitHub</a>
-                    	</li>
-                    	<li>
-                        	<a href="https://www.npmjs.com/~w3c">npm</a>
-                    	</li>
-                	</ul>
-            	</div>
-            	<div id="support" class="col-md-2">
-                	<h3>Support us</h3>
-                	<ul>
-                    	<li>
-                        	<a href="donate.html">Donate</a>
-                    	</li>
-                	</ul>
-            	</div>
-            	<div id="affiliates" class="col-md-2">
-                	<h3>Affiliates</h3>
-                	<ul>
-                    	<li>
-                        	<a href="https://twitter.com/W3C_DevTools">W3C Website</a>
-                    	</li>
-                    	<li>
-                        	<a href="http://testthewebforward.org/">Test The Web Forward</a>
-                    	</li>
-                    	<li>
-                        	<a href="http://www.w3devcampus.com/">W3DevCampus</a>
-                    	</li>
-                    	<li>
-                        	<a href="https://validator-suite.w3.org/">Validator Suite</a>
-                    	</li>
-                	</ul>
-            	</div>
-        	</div>
-        	<div id="copyright" class='container'>
-            	<p class="copyright">
-                	<a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2015 <a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.
-            	</p>
-        	</div>
-    	</footer>
-  </body>
-</html>-->
+	<script src="js/smooth-scroll.min.js"></script>
+	<script>
+		smoothScroll.init();
+	</script>
+	</body>
+</html>

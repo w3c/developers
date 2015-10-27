@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Roboto slab';
+  src:  url('../fonts/RobotoSlab-Bold.ttf') format('ttf'),
+        url('../fonts/RobotoSlab-Light.ttf') format('ttf'),
+        url('../fonts/RobotoSlab-Regular.ttf') format('ttf'),
+        url('../fonts/RobotoSlab-Thin.ttf') format('ttf');
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    height: 100%;
+    font-size: 16px;
+    font-family: Roboto slab;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 0px;
+    height: 80px;
+    background-color:#455164;
+}
+
+.w3c {
+        margin-top: 15px;
+}
+
+.navbar .navbar-brand {
+    padding: 0px;
+}
+
+
+.navbar ul li {
+        height: 80px;
+}
+
+.navbar ul li a {
+        padding: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #ddd;
+}
+
+.navbar-default .navbar-nav>li>a {
+        color: white;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #455164;
+}
+
+.light-text {
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #455164;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    color: #455164;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #455164;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    padding: 80px 0px 20px 0px;
+    background-color:#ECEFF1;
+}
+
+footer h4 {
+    margin-top: 0px;
+    color: rgba(0,0,0,0.7);
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 1rem;
+    letter-spacing: .02em;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+footer a {
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: .02em;
+    font-family: Roboto;
+    color: rgba(0,0,0,0.54);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #536DFE;
+    text-decoration: none;
+}
+
+footer .copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+
+    html, body {
+        font-size: 16px;
+    }
+    img {
+        max-width: 100%;
+    }
+    .navbar {
+        height: 80px;
+    }
+}
