@@ -125,3 +125,18 @@ header #hero .explore {
     color: #536DFE;
     text-decoration: none;
 }
+
+
+
+@media (max-width: 768px) {
+
+    header #hero {
+        padding: 80px 0px 100px 0px;
+    }
+
+    header #hero h1.motto {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+}
