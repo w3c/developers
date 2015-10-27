@@ -83,8 +83,12 @@ h4 {
 }
 
 footer {
-    padding: 80px 0px 20px 0px;
+    padding: 60px 0px 20px 0px;
     background-color:#ECEFF1;
+}
+
+footer img {
+    margin-top: 20px;
 }
 
 footer h4 {
@@ -94,6 +98,7 @@ footer h4 {
     font-family: Roboto;
     font-size: 1rem;
     letter-spacing: .02em;
+    margin-top: 30px;
 }
 
 footer ul {
