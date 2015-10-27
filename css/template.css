@@ -83,7 +83,7 @@ h4 {
 }
 
 footer {
-    padding: 60px 0px 20px 0px;
+    padding: 40px 0px 20px 0px;
     background-color:#ECEFF1;
 }
 
@@ -106,6 +106,9 @@ footer ul {
     padding: 0px;
 }
 
+footer img {
+    margin-bottom: 30px;
+}
 footer a {
     font-size: 0.9rem;
     font-weight: 300;
