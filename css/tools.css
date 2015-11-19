@@ -47,6 +47,26 @@ header #hero .explore {
 
 }
 
+#tools .tool .call-to-action {
+    margin-top: 10px;
+}
+
+#tools .tool .call-to-action a {
+    padding: 0px 3px 0px 3px;
+}
+
+#tools .tool .call-to-action a img {
+    opacity: 0.7;
+}
+
+#tools .tool .call-to-action a img:hover {
+    opacity: 1;
+}
+
+#tools .tool .use-the-tool {
+
+}
+
 #tools .tool h3 {
     margin-top: 0px;
     font-size: 1rem;
