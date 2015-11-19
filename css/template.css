@@ -93,8 +93,8 @@ footer img {
 
 footer h4 {
     margin-top: 0px;
-    color: rgba(0,0,0,0.7);
-    font-weight: 300;
+    color: rgba(0,0,0,0.87);
+    font-weight: 400;
     font-family: Roboto;
     font-size: 1rem;
     letter-spacing: .02em;
@@ -114,7 +114,7 @@ footer a {
     font-weight: 300;
     letter-spacing: .02em;
     font-family: Roboto;
-    color: rgba(0,0,0,0.54);
+    color: rgba(0,0,0,0.87);
     text-decoration: none;
 }
 
