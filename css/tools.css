@@ -114,8 +114,40 @@ header #hero .explore {
     color: #536DFE;
 }
 
-#more {
+#featured {
     background-color: #F5F5F5;
+    padding: 50px 0px 50px 0px;
+}
+
+#featured p {
+        line-height: 1.8rem;
+}
+
+#featured h2 a {
+    color: #536DFE;
+    text-decoration: none;
+    letter-spacing: 0.02rem;
+}
+
+#featured p.call-to-action a {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #536DFE;
+    text-decoration: none;
+    letter-spacing: 0.02rem;
+}
+
+#featured h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0,0,0,0.87);
+    font-family: Roboto;
+    letter-spacing: 0.02rem;
+}
+
+#more {
+    background-color: white;
     padding: 50px 0px 50px 0px;
 }
 

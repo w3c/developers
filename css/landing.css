@@ -137,9 +137,7 @@ header #hero .explore {
 }
 
 #breaking-news {
-    padding: 50px 0px 50px 0px;
-    background-color: #ECEFF1;
-    background: linear-gradient(to right, #448AFF , #2979FF, #2962FF);
+        background-color: white;
 }
 
 #breaking-news img {
@@ -148,16 +146,9 @@ header #hero .explore {
 }
 
 #breaking-news h2 {
-    font-size: 1.8rem;
-    letter-spacing: .02em;
-    margin-bottom: 30px;
-    font-weight: 300;
-    font-family: Roboto;
-    color: white;
 }
 
 #breaking-news p {
-    color: rgba(255,255,255,1);
     line-height: 1.7rem;
 }
 
@@ -168,6 +159,38 @@ header #hero .explore {
     font-weight: 400;
     font-family: Roboto;
     color: white;
+}
+
+#breaking-news {
+    background-color: white;
+    padding: 50px 0px 50px 0px;
+}
+
+#breaking-news p {
+        line-height: 1.8rem;
+}
+
+#breaking-news h2 a {
+    color: #536DFE;
+    text-decoration: none;
+    letter-spacing: 0.02rem;
+}
+
+#breaking-news p.call-to-action a {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #536DFE;
+    text-decoration: none;
+    letter-spacing: 0.02rem;
+}
+
+#breaking-news h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0,0,0,0.87);
+    font-family: Roboto;
+    letter-spacing: 0.02rem;
 }
 
 #friends {
