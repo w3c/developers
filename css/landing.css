@@ -138,18 +138,22 @@ header #hero .explore {
 
 #breaking-news {
         background-color: white;
+        text-align: center;
 }
 
 #breaking-news img {
     margin: auto;
     margin-top: 20px;
+    max-width: 220px;
 }
 
 #breaking-news h2 {
+    text-align: left;
 }
 
 #breaking-news p {
     line-height: 1.7rem;
+    text-align: left;
 }
 
 #breaking-news p.call-to-action a {
