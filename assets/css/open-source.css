@@ -103,3 +103,48 @@ footer h4 {
 footer a {
     color: rgba(0,0,0,0.6);
 }
+
+@media (max-width: 768px) {
+
+    header {
+        background-image: none;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    header .hero  {
+        padding: 0px 0px 50px 0px;
+    }
+
+    header .hero h1 {
+        text-align: left;
+    }
+
+    header .hero p.hero-introduction {
+        text-align: left;
+        margin: none;
+        max-width: 100%;
+    }
+
+    main .open-source-projects ul.projects-list li.project ~ li.project {
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+
+    footer .container {
+        padding-top: 20px;
+    }
+
+    footer .brand {
+        margin-top: 20px;
+    }
+
+    footer .brand img {
+        height: 22;
+    }
+
+    footer p.copyright  {
+        text-align: left;
+    }
+}
