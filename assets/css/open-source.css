@@ -1,0 +1,150 @@
+header {
+    background-color: #4776E6;
+    background-image: url(../img/open-source-cover.png);
+    background-size: 80% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .navbar {
+    background-image: none;
+    background-color: transparent;
+    border: 0px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+header .hero {
+    padding: 60px 0px 150px 0px;
+}
+
+header .hero h1 {
+    color: white;
+    text-align: center;
+}
+
+header .hero p.hero-introduction {
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 1em;
+    max-width: 500px;
+    margin: auto;
+}
+
+main .open-source-projects {
+    padding-bottom: 80px;
+}
+
+main .open-source-projects .search {
+    text-align: left;
+    padding-top: 50px;
+}
+
+main .open-source-projects .search input {
+    width: 500px;
+    max-width: 100%;
+    padding: 12px 20px 12px 20px;
+    font-size: 0.8em;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+main .open-source-projects ul.projects-list {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+}
+
+main .open-source-projects ul.projects-list li.project {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+main .open-source-projects ul.projects-list li.project h3 a {
+    color: #4776E6;
+}
+
+main .open-source-projects ul.projects-list  li.project p.project-description {
+    color: rgba(0,0,0,0.7);
+}
+
+main .open-source-projects ul.projects-list  li.project p.call-to-action {
+    padding-top: 20px;
+}
+
+main .open-source-projects ul.projects-list  li.project p.call-to-action a {
+    margin-right: 5px;
+}
+
+main .open-source-projects ul.projects-list ul.project-data {
+    list-style-type: none;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 3px;
+}
+
+main .open-source-projects ul.projects-list ul.project-data li {
+    font-size: 0.8em;
+    color: rgba(0,0,0,0.7);
+}
+
+main .open-source-projects ul.projects-list ul.project-data li span {
+    margin-right: 10px;
+}
+
+main .open-source-projects ul.projects-list ul.project-data li ~ li {
+    padding-top: 20px;
+}
+
+footer h4 {
+    color: rgba(0,0,0,0.6);
+}
+
+footer a {
+    color: rgba(0,0,0,0.6);
+}
+
+@media (max-width: 768px) {
+
+    header {
+        background-image: none;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    header .hero  {
+        padding: 0px 0px 50px 0px;
+    }
+
+    header .hero h1 {
+        text-align: left;
+    }
+
+    header .hero p.hero-introduction {
+        text-align: left;
+        margin: none;
+        max-width: 100%;
+    }
+
+    main .open-source-projects ul.projects-list li.project ~ li.project {
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+
+    footer .container {
+        padding-top: 20px;
+    }
+
+    footer .brand {
+        margin-top: 20px;
+    }
+
+    footer .brand img {
+        height: 22;
+    }
+
+    footer p.copyright  {
+        text-align: left;
+    }
+}

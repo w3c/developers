@@ -1,0 +1,123 @@
+html, body {
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+a {
+    color: #4776E6;
+    font-size: 1em;
+}
+
+a.action1 {
+    padding: 8px 20px 8px 20px;
+    border: 1px solid #4776E6;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.action2 {
+    padding: 8px 20px 8px 20px;
+    background-color: #4776E6;
+    border: 1px solid #4776E6;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.loading {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.loading img {
+    -webkit-animation: 0.8s rotate linear infinite;
+    animation: 0.8s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate {
+    from {
+    transform: rotate(0);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+    -webkit-transform: rotate(0);
+    }
+    to {
+    -webkit-transform: rotate(360deg);
+    }
+}
+
+footer .container {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+footer ul li {
+    padding: 3px 0px 3px 0px;
+    font-size: 0.7em;
+}
+
+footer p.copyright {
+    font-size: 0.7em;
+    line-height: 1.7em;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+}
+
+footer p.brand {
+    text-align: left;
+}
+
+footer p.brand img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+footer p.motto {
+    font-size: 0.7em;
+    line-height: 1.7em;
+    margin-top: 10px;
+    text-align: left;
+    color: rgba(0,0,0,0.6);
+}
