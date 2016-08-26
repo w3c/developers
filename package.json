@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "docpad": "~6.78.6",
+    "docpad-plugin-ejs": "~2.0.2",
+    "docpad-plugin-ghpages": "^2.4.4"
+  }
+}
