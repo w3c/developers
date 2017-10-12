@@ -35,7 +35,7 @@ header #hero h1.motto {
 
 header #hero .explore {
     padding: 20px 30px 20px 30px;
-    background-color: #536DFE;
+    background-color: #004dd1;
     font-family: Roboto;
     font-size: 0.9rem;
     font-weight: 300;
@@ -75,23 +75,23 @@ header #hero .explore {
 }
 
 #get-started #learning-card .card-header {
-    background-color: #FF6E40;
-    background: linear-gradient(to right, #FF6E40, #FF3D00);
+    background-color: #b34a00;
+    background: linear-gradient(to right, #b34a00, #943e00);
 }
 
 #get-started #devtools-card .card-header {
-    background-color: #448AFF;
-    background: linear-gradient(to right, #448AFF, #2979FF);
+    background-color: #1e00b3;
+    background: linear-gradient(to right, #1e00b3, #190094);
 }
 
 #get-started #getinvolved-card .card-header {
-    background-color: #FF4081;
-    background: linear-gradient(to right, #FF4081, #F50057);
+    background-color: #b3003b;
+    background: linear-gradient(to right, #b3003b, #940031);
 }
 
 #get-started #testthewebforward-card .card-header {
-    background-color: #E040FB;
-    background: linear-gradient(to right, #E040FB, #D500F9);
+    background-color: #a604c3;
+    background: linear-gradient(to right, #a604c3, #8803a0);
 }
 
 #get-started .card-header h2 {
